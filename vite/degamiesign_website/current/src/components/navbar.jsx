@@ -1,7 +1,11 @@
 const NavBar=()=>{
+    const [MobileMenu,setshowMobileMenu]=false;//Inititlzizing Mobile Menu
     return (
         <div className='absolute top-0 left-0 w-full z-10'>
             <img src={assets.log}>Degamiesign Header_Bckg</img>
+            {/* Mobile menu Screen  */}
+            <div className={'md:hidden ${showMobileMenu ? 'fixed w-full':'h-0 w-0'} right-0 top-0 bottom-0 ,overflow-hidden bg-white transition-all'}></div>/Mobile Menu's Class Declare
+            <img onClick={()=>setshowMobileMenu(true)}src={assests.menu_icon}></img>;//Displaying Mobile Menu On Screen
             <ul className="container mx-auto flex">
                 <a href="#Header" className='cursor-pointer hover:text-blue-400'>About Us</a>
                 <a href="#Header" className='cursor-pointer hover:text-blue-400'>
