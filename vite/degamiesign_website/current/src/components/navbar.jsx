@@ -1,5 +1,11 @@
+import { useEffect } from "react";
+
 const NavBar=()=>{
-    const [MobileMenu,setshowMobileMenu]=false;//Inititlzizing Mobile Menu
+    const [ShowMobileMenu,setshowMobileMenu]=useState(false);//Inititlzizing Mobile Menu
+    useEffect(()=>{//UseEffect's Declare
+        if(ShowMobileMenu)//Displaying MobileMenu
+        else [!ShowMobileMenu]};)//UnDisplaying MobileMenu
+     
     return (
         <div className='absolute top-0 left-0 w-full z-10'>
             <img src={assets.log}>Degamiesign Header_Bckg</img>
