@@ -7,6 +7,11 @@ function Header() {
       <h2>
         We Empower Innovation!
       </h2>
+      <div className="grid 2">
+        <div>
+          <button className='md-85 blue-color px-5 py-6'>Header</button>
+        </div>
+      </div>
       <a href="">Jobs</a>
       <a href="">Contact Us</a>   
     </div>
