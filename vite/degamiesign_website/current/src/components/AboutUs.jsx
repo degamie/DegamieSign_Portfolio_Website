@@ -1,7 +1,21 @@
 import React from 'react'
 
 function AboutUs() {
-  return ( 
+  return (  
+     <div>
+      <div>
+          const useEffect=(()=>{
+          const updateCardsToShow=()=>{
+            if(window.innerWidth>=1024){
+              setCardsToShow(ProductsData.length);
+            }
+              else setCardsToShow(1);
+              window.addEventListener();   
+          }
+        });
+    return ()=>{
+      window.removeEventListner('resize',updateCardsToShow);
+    }       
   <div> AboutUs
     <h2>Welcome,We Provide High End Business Solutions Globally </h2>
     <div className='flex flex-col items-center container mx-auto p-14 md:px-20 lg:px-35 w-full overflow-display 'id='About Us'>
@@ -26,6 +40,9 @@ function AboutUs() {
         </div>
         <div className='flex flex-col md:flex-row items-center md:items-start md:gap-20'></div>
         <img src={assets}alt=""></img>
+    </div>
+  
+      </div>
     </div>
 
     </div>
