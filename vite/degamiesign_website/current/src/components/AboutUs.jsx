@@ -15,13 +15,15 @@ function AboutUs() {
         });
     return ()=>{
       window.removeEventListner('resize',updateCardsToShow);
+       window.addEventListener("resize",updateCardsToToShow());
     }       
   <div> AboutUs
     <h2>Welcome,We Provide High End Business Solutions Globally </h2>
     <div className='flex flex-col items-center container mx-auto p-14 md:px-20 lg:px-35 w-full overflow-display 'id='About Us'>
       <h1 className='text-2xl sm:text-4xl font-bold mb-2'></h1>
               <p className ='text-5xl font-medium text-blue-white-800'>Believe In!</p>
-              
+              <div className='flex gap-8 transition-transform duration-500 ease-in-out 'style={{transform:'translateX'('$(currentIndx*100/cardsTodisplaty'%)}}
+             
         <div>
           <div>
             {ProductData.map((Product,index)=>(
