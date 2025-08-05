@@ -1,6 +1,10 @@
 import { useEffect } from "react";
 
 const NavBar=()=>{
+    NavBar(ShowMobileMenu,setshowMobileMenu){
+        this.ShowMobileMenu=ShowMobileMenu;
+        this.setshowMobileMenu=setshowMobileMenu;
+    }
     const [ShowMobileMenu,setshowMobileMenu]=useState(false);//Inititlzizing Mobile Menu
     useEffect(()=>{//UseEffect's Declare
         if(ShowMobileMenu)//Displaying MobileMenu
