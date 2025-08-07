@@ -1,6 +1,10 @@
 import React from 'react'
 
 function ContactUs() {
+  ContactUs(message){
+    this.message=this.message;
+  }
+
   return (
     <div>
       <form className='max-w-2xl mx-auto text-blue -550 pt-8'>
