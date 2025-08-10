@@ -10,14 +10,18 @@ function ContactUs() {
       <form className='max-w-2xl mx-auto text-blue -550 pt-8'>
      <div className='w-full md:w-1/2 text-left'>Name 
       <input className='w-full border border-blue-350 rounded py-5 px-4 mt-1'type="text" name="Name" placeholder='Your FullName Required'>
-{**Update(9/10/2025):**}
-<div>{Array.from({length:jobs.count.rating,item,index)},=>(
-<img key={index},src=" " ,alt=" ",}
-</div>
       </input>
             <input className='w-full border border-blue-350 rounded py-5 px-4 mt-1'type="text" name="Email" placeholder='Your Email Required'></input>
                   <input className='w-full border border-blue-350 rounded py-5 px-4 mt-1'type="text" name="PhoneNumber" placeholder='Your PhoneNumber Required'></input>
      <div>Message<textArea name="Message" placeholder='Message'></textArea></div>
+{/*      Update(9/10/2025): */}
+     <div>{Array.from({length:jobs.count.rating,item,index)},=>(
+     <img key={index}, src=" " , alt=" ">
+     //      10/08/2025 Update
+     <p className='text-blue-680'>{jobs.text}</p>
+{/*      <div> */}
+
+     </div>
      </div>
 
     </form>
