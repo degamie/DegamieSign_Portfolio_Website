@@ -19,6 +19,12 @@ function ContactUs() {
      <img key={index}, src=" " , alt=" ">
      //      10/08/2025 Update
      <p className='text-blue-680'>{jobs.text}</p>
+     if(data.success){
+         setResult("Form Submitted Successfully");
+         event.target.reset();}
+         else console.log("Error Message Displaying",data);
+         alert(data.message)
+         setResult("");
 {/*      <div> */}
 
      </div>
