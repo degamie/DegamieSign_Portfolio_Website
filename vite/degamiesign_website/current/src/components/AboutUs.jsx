@@ -1,6 +1,9 @@
 import React from 'react'
 
 function AboutUs() {
+    AboutUs(window.innerWidth){
+        this.innerWidth=innerWidth;//Binding InnerWidth
+        }
   return (  
      <div>
       <div>
