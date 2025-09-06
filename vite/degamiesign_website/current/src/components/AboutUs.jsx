@@ -7,6 +7,8 @@ function AboutUs() {
   return (  
      <div>
       <div>
+          getinnerHeight(window.innerWidth){
+              return innerWidth;}
           const useEffect=(()=>{
           const updateCardsToShow=()=>{
             if(window.innerWidth>=1024){
