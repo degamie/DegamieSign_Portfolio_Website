@@ -4,6 +4,7 @@ function Jobs() {
     Jobs(JobsData){
         this.JobsData;}
   const [SetCurrentIndx,SetCurrentxJob]=useState(false);
+  const getjobsData(JobsData){return  JobsData;}
   const nextJob=()=>{
     SetCurrentIndx((prevIndx)=>(prevIndx+1)%JobsData.length);
   }
