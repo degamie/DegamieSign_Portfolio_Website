@@ -1,8 +1,9 @@
 import React from 'react'
 
 function AboutUs() {
-    AboutUs(window.innerWidth){
+    AboutUs(window.innerWidth,window.innerHeight){//InnerWidth and innerHeight's Declare
         this.innerWidth=innerWidth;//Binding InnerWidth
+        this.innerHeight=innerHeight;//InnerWidth and innerHeight's Binding
         }
   return (  
      <div>
