@@ -11,6 +11,9 @@ const NavBar=()=>{
     useEffect(()=>{//UseEffect's Declare
         if(ShowMobileMenu)//Displaying MobileMenu
         else [!ShowMobileMenu]};)//UnDisplaying MobileMenu
+
+        const showMobileMenu(MobileMenu){
+            return MobileMenu;}
      
     return (
         <div className='absolute top-0 left-0 w-full z-10'>
