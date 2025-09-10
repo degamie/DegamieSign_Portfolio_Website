@@ -8,6 +8,7 @@ function ContactUs() {
   return (
       const getMessage(message){
           return message;}
+          const setMessage(message){this.message=message;}
     <div>
       <form className='max-w-2xl mx-auto text-blue -550 pt-8'>
      <div className='w-full md:w-1/2 text-left'>Name 
