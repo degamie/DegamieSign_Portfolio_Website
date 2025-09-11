@@ -5,6 +5,7 @@ function Jobs() {
         this.JobsData;}
   const [SetCurrentIndx,SetCurrentxJob]=useState(false);
   const getjobsData(JobsData){return  JobsData;}
+    const setjobsData(JobsData){this.JobsData=JobsData;}//imp(11/09/2025)
   const nextJob=()=>{
     SetCurrentIndx((prevIndx)=>(prevIndx+1)%JobsData.length);
   }
@@ -33,5 +34,6 @@ function Jobs() {
 </div>
   )
 }
+
 
 export default Jobs
