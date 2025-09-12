@@ -8,6 +8,8 @@ const NavBar=()=>{
     const [ShowMobileMenu,setshowMobileMenu]=useState(false);//Inititlzizing Mobile Menu
     getMobileMenu(ShowMobileMenu showMobileMenu){
         return showMobileMenu;}
+        setMobileMenu(ShowMobileMenu showMobileMenu){
+            this.showMobileMenu=showMobileMenu;}
     useEffect(()=>{//UseEffect's Declare
         if(ShowMobileMenu)//Displaying MobileMenu
         else [!ShowMobileMenu]};)//UnDisplaying MobileMenu
