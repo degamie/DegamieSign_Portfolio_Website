@@ -5,11 +5,19 @@ function AboutUs() {
         this.innerWidth=innerWidth;//Binding InnerWidth
         this.innerHeight=innerHeight;//InnerWidth and innerHeight's Binding
         }
-  return (  
+  return (
+    getProductsToShow(ProductsData.length){
+      return ProductsData;
+    }
+      setCardsToShow(ProductsData.length){
+          this.ProductsData.length=ProductsData.length;}
+                 getinnerWidth(window.innerWidth){
+                                   return innerWidth+1;}
      <div>
       <div>
-          getinnerHeight(window.innerWidth){
-              return innerWidth;}
+          getinnerHeight(window.innerHeight){
+              return innerHeight;}
+
           const useEffect=(()=>{
           const updateCardsToShow=()=>{
             if(window.innerWidth>=1024){
@@ -31,19 +39,19 @@ function AboutUs() {
               <p className ='text-5xl font-medium text-blue-white-800'>Believe In!</p>
               <div className='flex gap-8 transition-transform duration-500 ease-in-out 'style={{transform:'translateX'('$(currentIndx*100/cardsTodisplaty'%)}}
              
-        <div>
-          <div>
-            {ProductData.map((Product,index)=>(
-              <div key={index} className='relative flex -shrink-0 w-full sm:w-1/4'>
-                <img src={ProductImg} alt={Product.img}>
-                </img>
-                </div>
-            ))}
-          </div>
-        </div>
-       <h2> Mobile App Dev
-        <div>Design,Build and Develop Most PowerFull App Dev Integrably</div></h2>
-        <div className='grid grid-cols-2 gap-8 md:gap-4 w-full 2xl:pr-28'>
+//         <div>
+//           <div>
+//             {ProductData.map((Product,index)=>(
+//               <div key={index} className='relative flex -shrink-0 w-full sm:w-1/4'>
+//                 <img src={ProductImg} alt={Product.img}>
+//                 </img>
+//                 </div>
+//             ))}
+//           </div>
+//         </div>
+//        <h2> Mobile App Dev
+//         <div>Design,Build and Develop Most PowerFull App Dev Integrably</div></h2>
+//         <div className='grid grid-cols-2 gap-8 md:gap-4 w-full 2xl:pr-28'>
 
         <p className ='text-5xl font-medium text-yellow-white-800'>Hiring</p>
         </div>
