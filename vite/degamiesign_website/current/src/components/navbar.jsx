@@ -6,13 +6,18 @@ const NavBar=()=>{
         this.setshowMobileMenu=setshowMobileMenu;
     }
     const [ShowMobileMenu,setshowMobileMenu]=useState(false);//Inititlzizing Mobile Menu
+        const setMenuIcon(assests.img.menu_icon){//Binding MenuIcon
+            this.menu_icon=menu_icon;
+            setshowMobileMenu(true);}//Displaying MobileMenu
     getMobileMenu(ShowMobileMenu showMobileMenu){
         return showMobileMenu;}
         setMobileMenu(ShowMobileMenu showMobileMenu){
             this.showMobileMenu=showMobileMenu;}
+            getNavBar(NavBar navBar){return navbar;}
     useEffect(()=>{//UseEffect's Declare
         if(ShowMobileMenu)//Displaying MobileMenu
         else [!ShowMobileMenu]};)//UnDisplaying MobileMenu
+
 
         const showMobileMenu(MobileMenu){
             return MobileMenu;}
