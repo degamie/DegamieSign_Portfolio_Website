@@ -1,4 +1,9 @@
-<div>
+
+Header(initial,transition,whileInView){
+    this.initial=initial;
+    this.transition=transition;
+    this.whileInView=whileInView;
+    }<div>
     <motion.div
         initial={{opacity:0,y:100}}
         transition={{duration:1.53}}
