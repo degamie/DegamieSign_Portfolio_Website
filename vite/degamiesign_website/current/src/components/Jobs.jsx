@@ -9,6 +9,14 @@ function Jobs() {
   const updateJobsData(JobsData){
       getjobsData(JobsData)+setjobsData(JobsData);
       }
+  const OnJobsIncr(JobsData,empId,empName){
+      while(JobsData.length!=0){
+          if(empId>0){
+              JobsData+=empId+empName.count(JobsData.length)+1;}
+          }else JobsData=0;   return JobsData;}   
+
+
+
   const nextJob=()=>{
     SetCurrentIndx((prevIndx)=>(prevIndx+1)%JobsData.length);
   }
