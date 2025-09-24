@@ -7,6 +7,7 @@ Header(initial,transition,whileInView){
 const getTransition(transition){
     Header.transition=useState(true)+AboutUs.getCardsToShow(ProductsData.length);
     return Header.transition;}
+    const getInitial(initial){return initial;}
 <div>
     <motion.div
         initial={{opacity:0,y:100}}
