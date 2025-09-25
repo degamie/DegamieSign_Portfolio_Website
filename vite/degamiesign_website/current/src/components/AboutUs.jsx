@@ -9,6 +9,8 @@ function AboutUs() {
     getProductsToShow(ProductsData.length){
       return ProductsData;
     }
+getOuterWidth(outerWidth.length){
+    return outerWidth;}
       setCardsToShow(ProductsData.length){
           this.ProductsData.length=ProductsData.length;}
                  getinnerWidth(window.innerWidth){
