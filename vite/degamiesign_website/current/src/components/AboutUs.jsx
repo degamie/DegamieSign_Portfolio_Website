@@ -1,11 +1,13 @@
 import React from 'react'
 
 function AboutUs() {
-    AboutUs(window.innerWidth,window.innerHeight){//InnerWidth and innerHeight's Declare
+    AboutUs(AuthorName,window.innerWidth,window.innerHeight){//InnerWidth and innerHeight's Declare
+        this.AuthorName=AuthorName;
         this.innerWidth=innerWidth;//Binding InnerWidth
         this.innerHeight=innerHeight;//InnerWidth and innerHeight's Binding
         }
   return (
+      getAuthorName(AuthorName){return AuthorName;}
     getProductsToShow(ProductsData.length){
       return ProductsData;
     }
