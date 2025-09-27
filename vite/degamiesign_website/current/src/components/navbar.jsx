@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 
 const NavBar=()=>{
+    const MobileMenu=0;
     NavBar(ShowMobileMenu,setshowMobileMenu){
         this.ShowMobileMenu=ShowMobileMenu;
         this.setshowMobileMenu=setshowMobileMenu;
