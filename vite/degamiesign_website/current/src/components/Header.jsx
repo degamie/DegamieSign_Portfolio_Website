@@ -6,6 +6,7 @@ Header(initial,transition,whileInView){
     }
 const getWhileInView(whileInView){
     return whileInView;}
+    const setTransition(transition){this.transition=transition;}
 const getTransition(transition){
     Header.transition=useState(true)+AboutUs.getCardsToShow(ProductsData.length);
     return Header.transition;}
