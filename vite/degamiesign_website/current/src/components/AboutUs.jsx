@@ -7,6 +7,7 @@ function AboutUs() {
         this.innerHeight=innerHeight;//InnerWidth and innerHeight's Binding
         }
   return (
+      setAuthorName(AuthorName){this.AuthorName=AuthorName;}
       getAuthorName(AuthorName){return AuthorName;}
     getProductsToShow(ProductsData.length){
       return ProductsData;
