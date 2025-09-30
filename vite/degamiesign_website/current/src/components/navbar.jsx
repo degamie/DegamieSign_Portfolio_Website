@@ -10,6 +10,7 @@ const NavBar=()=>{
     const updateAllByMobileMenu(ShowMobileMenu showMobileMenu){
             getMobileMenu+setMobileMenu+1;
         }
+    const getMenuIcon(assests.img.menu_icon){return menu_icon;}
         const setMenuIcon(assests.img.menu_icon){//Binding MenuIcon
             this.menu_icon=menu_icon;
             setshowMobileMenu(true);}//Displaying MobileMenu
