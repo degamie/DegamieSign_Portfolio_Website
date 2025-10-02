@@ -9,9 +9,12 @@ function AboutUs() {
   return (
       setAuthorName(AuthorName){this.AuthorName=AuthorName;}
       getAuthorName(AuthorName){return AuthorName;}
+      setProductsDataToShow(ProductData.length){this.ProductData=ProductData;}
     getProductsToShow(ProductsData.length){
       return ProductsData;
     }
+setOuterWidth(outerWidth.length){this.outerWidth=outerWidth;}
+getOuterHeight(outerHeight.length){return outerHeight;}//Fetching OuterHeight in Server
 getOuterWidth(outerWidth.length){
     return outerWidth;}
       setCardsToShow(ProductsData.length){
