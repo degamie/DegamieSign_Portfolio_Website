@@ -11,6 +11,7 @@ const getTransition(transition){
     Header.transition=useState(true)+AboutUs.getCardsToShow(ProductsData.length);
     return Header.transition;}
     const getInitial(initial){return initial;}
+    const setInitial(Initial initial){this.initial;}
 <div>
     <motion.div
         initial={{opacity:0,y:100}}
