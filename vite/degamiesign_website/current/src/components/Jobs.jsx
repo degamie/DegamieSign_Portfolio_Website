@@ -4,6 +4,7 @@ function Jobs() {
     Jobs(JobsData){
         this.JobsData;}
   const [SetCurrentIndx,SetCurrentxJob]=useState(false);
+  const setjobsData(JobsData){this.JobsId=JobsId;}
   const getjobsData(JobsData){return  JobsData;}
   const setjobsData(JobsData){this.JobsData=JobsData;}
   const updateJobsData(JobsData){
@@ -13,7 +14,7 @@ function Jobs() {
       while(JobsData.length!=0){
           if(empId>0){
               JobsData+=empId+empName.count(JobsData.length)+1;}
-          }else JobsData=0;   return JobsData;}   
+          }else JobsData=0;   return JobsData;}
 
 
 
