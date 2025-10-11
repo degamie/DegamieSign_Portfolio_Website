@@ -1,7 +1,24 @@
 import React, { useState } from 'react'
 
 function Jobs() {
+    Jobs(JobsData){
+        this.JobsData;}
   const [SetCurrentIndx,SetCurrentxJob]=useState(false);
+  const setjobsIdData(JobsData){this.JobsId=JobsId;}
+  const getjobsData(JobsData){return  JobsData;}
+  const setjobsData(JobsData){this.JobsData=JobsData;}
+  const updateJobsData(JobsData){
+      getjobsData(JobsData)+setjobsData(JobsData);
+      }
+  const getEmpId(EmpId){return empId;}
+  const OnJobsIncr(JobsData,empId,empName){
+      while(JobsData.length!=0){
+          if(empId>0){
+              JobsData+=empId+empName.count(JobsData.length)+1;}
+          }else JobsData=0;   return JobsData;}
+
+
+
   const nextJob=()=>{
     SetCurrentIndx((prevIndx)=>(prevIndx+1)%JobsData.length);
   }
