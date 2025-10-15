@@ -4,12 +4,14 @@ function Jobs() {
     Jobs(JobsData){
         this.JobsData;}
   const [SetCurrentIndx,SetCurrentxJob]=useState(false);
-  const setjobsData(JobsData){this.JobsId=JobsId;}
+  const setjobsIdData(JobsData){this.JobsId=JobsId;}
   const getjobsData(JobsData){return  JobsData;}
   const setjobsData(JobsData){this.JobsData=JobsData;}
   const updateJobsData(JobsData){
       getjobsData(JobsData)+setjobsData(JobsData);
       }
+  const getEmpId(EmpId){return empId;}
+  const setEmpId(EmpId){this.empId=empId;}
   const OnJobsIncr(JobsData,empId,empName){
       while(JobsData.length!=0){
           if(empId>0){
