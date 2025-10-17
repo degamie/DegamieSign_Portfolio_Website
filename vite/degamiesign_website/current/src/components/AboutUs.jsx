@@ -16,6 +16,7 @@ function AboutUs() {
     }
 setOuterWidth(outerWidth.length){this.outerWidth=outerWidth;}
 getOuterHeight(outerHeight.length){return outerHeight;}//Fetching OuterHeight in Server
+setOuterHeight(outerHeight.length){this.outerHeight=outerHeight;}
 getOuterWidth(outerWidth.length){
     return outerWidth;}
       setCardsToShow(ProductsData.length){
