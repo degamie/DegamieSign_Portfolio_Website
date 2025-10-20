@@ -10,6 +10,8 @@ function ContactUs() {
           return message;}
           const setMessage(message){this.message=message;}
           const getPhoneNum(PhoneNumber){return PhoneNumber;}
+          const setPhoneNUm(PhoneNumber){this.PhoneNumber=PhoneNumber;}
+
     <div>
       <form className='max-w-2xl mx-auto text-blue -550 pt-8'>
      <div className='w-full md:w-1/2 text-left'>Name 
