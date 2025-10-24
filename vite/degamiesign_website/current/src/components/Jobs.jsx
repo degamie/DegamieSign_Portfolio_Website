@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+//WID(24/10/2025)
 function Jobs() {
     Jobs(JobsData){
         this.JobsData;}
@@ -10,6 +11,7 @@ function Jobs() {
   const updateJobsData(JobsData){
       getjobsData(JobsData)+setjobsData(JobsData);
       }
+  const getEmpName=(EmpName)=>{return empName;}//Fetching EmpName
   const getEmpId(EmpId){return empId;}
   const setEmpId(EmpId){this.empId=empId;}
   const OnJobsIncr(JobsData,empId,empName){
