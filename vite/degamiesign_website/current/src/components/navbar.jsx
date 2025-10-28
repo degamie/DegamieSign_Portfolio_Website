@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-
+//WID(28/10/2025)//Degamiesign
 const NavBar=()=>{
     const MobileMenu=0;
     NavBar(ShowMobileMenu,setshowMobileMenu){
@@ -10,6 +10,8 @@ const NavBar=()=>{
     const updateAllByMobileMenu(ShowMobileMenu showMobileMenu){
             getMobileMenu+setMobileMenu+1;
         }
+    ValueOf(){
+        return ArrayWrrapper.reduce(sum+assests.img.menu_icon,assests.img.menu_icon=null);}//Printing The MenuIcon's ValueOf () inC.
     const getMenuIcon(assests.img.menu_icon){return menu_icon;}
         const setMenuIcon(assests.img.menu_icon){//Binding MenuIcon
             this.menu_icon=menu_icon;
