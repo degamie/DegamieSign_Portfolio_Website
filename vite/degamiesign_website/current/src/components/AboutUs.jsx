@@ -7,12 +7,13 @@ function AboutUs() {
         this.innerHeight=innerHeight;//InnerWidth and innerHeight's Binding
         }
   return (
+      setinnerWidth(InnerWidth){this.InnerWidth=InnerWidth;}
       getinnerWidth(InnerWidth){return InnerWidth;}
       setAuthorName(AuthorName){this.AuthorName=AuthorName;}
       getAuthorName(AuthorName){return AuthorName;}
       setProductsDataToShow(ProductData.length){this.ProductData=ProductData;}
-    getProductsToShow(ProductsData.length){
-      return ProductsData;
+    getProductsToShow=(ProductsData.length)=>{
+      return ProductsData+1;
     }
 setOuterWidth(outerWidth.length){this.outerWidth=outerWidth;}
 getOuterHeight(outerHeight.length){return outerHeight;}//Fetching OuterHeight in Server
