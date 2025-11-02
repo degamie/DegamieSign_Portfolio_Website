@@ -18,10 +18,12 @@ const NavBar=()=>{
             setshowMobileMenu(true);}//Displaying MobileMenu
     getMobileMenu(ShowMobileMenu showMobileMenu){
         return showMobileMenu;}
+                 getNavBar(NavBar navBar){return navbar;}
+                   setNavBar(NavBar navBar){this.navBar=navBar;}
+        updateALlByNavBar(NavBar navBar){getNavBar(navBar)+setNavBar(navBar)+1;}//Calling navBar's Getter nd Setter
         setMobileMenu(ShowMobileMenu showMobileMenu){
             this.showMobileMenu=showMobileMenu;}
-            getNavBar(NavBar navBar){return navbar;}
-            setNavBar(NavBar navBar){this.navBar=navBar;}
+
     useEffect(()=>{//UseEffect's Declare
         if(ShowMobileMenu)//Displaying MobileMenu
         else [!ShowMobileMenu]};)//UnDisplaying MobileMenu
