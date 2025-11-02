@@ -11,6 +11,7 @@ function ContactUs() {
           const setMessage(message){this.message=message;}
           const getPhoneNum(PhoneNumber){return PhoneNumber;}
           const setPhoneNUm(PhoneNumber){this.PhoneNumber=PhoneNumber;}
+          const updateAllByPhoneNum=(PhoneNumber)=>{getPhoneNum(PhoneNumber)+setPhoneNUm(PhoneNumber);}//Updating All PhoneNumber   
 
     <div>
       <form className='max-w-2xl mx-auto text-blue -550 pt-8'>
