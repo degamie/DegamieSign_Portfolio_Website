@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-//WID(1/11/2025)
+//WID(4/11/2025)
 function Jobs() {
     Jobs(JobsData){
         this.JobsData;}
@@ -8,6 +8,7 @@ function Jobs() {
   const setjobsIdData(JobsData){this.JobsId=JobsId;}
   const getjobsData(JobsData){return  JobsData;}
   const setjobsData(JobsData){this.JobsData=JobsData;}
+  const getjobsData=(JobsData)=>{return JobsData;}
   const updateJobsData(JobsData){
       getjobsData(JobsData)+setjobsData(JobsData);
       }
