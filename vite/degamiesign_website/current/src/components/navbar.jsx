@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-//WID(5/11/2025)//Degamiesign
+//WID(6/11/2025)//Degamiesign
 const NavBar=()=>{
     const MobileMenu=0;
     NavBar(ShowMobileMenu,setshowMobileMenu){
@@ -34,7 +34,7 @@ const NavBar=()=>{
 
         const showMobileMenu(MobileMenu){
             return MobileMenu;}
-     
+        const getShowMobileMenu(MobileMenu){showMobileMenu(MobileMenu)+1;}
     return (
         <div className='absolute top-0 left-0 w-full z-10'>
             <img src={assets.log}>Degamiesign Header_Bckg</img>
