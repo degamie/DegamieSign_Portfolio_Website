@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-//WID(28/10/2025)//Degamiesign
+//WID(5/11/2025)//Degamiesign
 const NavBar=()=>{
     const MobileMenu=0;
     NavBar(ShowMobileMenu,setshowMobileMenu){
@@ -23,6 +23,9 @@ const NavBar=()=>{
         updateALlByNavBar(NavBar navBar){getNavBar(navBar)+setNavBar(navBar)+1;}//Calling navBar's Getter nd Setter
         setMobileMenu(ShowMobileMenu showMobileMenu){
             this.showMobileMenu=showMobileMenu;}
+            updateAllByMobileMenu(ShowMobileMenu showMobileMenu){
+                getMobileMenu(MobileMenu)+setMobileMenu(MobileMenu);}//Updating MobileMenu on Website
+
 
     useEffect(()=>{//UseEffect's Declare
         if(ShowMobileMenu)//Displaying MobileMenu
