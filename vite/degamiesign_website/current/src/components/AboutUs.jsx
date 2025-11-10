@@ -11,6 +11,7 @@ function AboutUs() {
       getinnerWidth(InnerWidth){return InnerWidth;}
       setAuthorName(AuthorName){this.AuthorName=AuthorName;}
       getAuthorName(AuthorName){return AuthorName;}
+      updateAllByAuthorName=(AuthorName)=>{getAuthorName(AuthorName)+setAuthorName(AuthorName)+1;}//Udpating All Author's Name in Server
       setProductsDataToShow(ProductData.length){this.ProductData=ProductData;}
     getProductsToShow=(ProductsData.length)=>{
       return ProductsData+1;
@@ -22,6 +23,8 @@ getOuterWidth(outerWidth.length){
     return outerWidth;}
       setCardsToShow(ProductsData.length){
           this.ProductsData.length=ProductsData.length;}
+          getCardSToShow=(ProductData.length)=>{return ProductsData.length; }//Fetching ProductData in Server
+
                  getinnerWidth(window.innerWidth){
                                    return innerWidth+1;}
      <div>
