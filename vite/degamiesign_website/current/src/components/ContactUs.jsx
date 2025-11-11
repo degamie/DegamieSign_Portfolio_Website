@@ -1,5 +1,6 @@
 import React from 'react'
 
+//WID(11/11/2025)//Sarthak mittal a.k.a(Degamiesign)#11
 function ContactUs() {
   ContactUs(message){
     this.message=this.message;
@@ -9,9 +10,11 @@ function ContactUs() {
       const getMessage(message){
           return message;}
           const setMessage(message){this.message=message;}
+          const getAllByEmail=(email)=>{return email;}//Fetching Email in Server
+          const setAllByEmail=(email)=>{this.email=email;}//Binding Email in Server
           const getPhoneNum(PhoneNumber){return PhoneNumber;}
           const setPhoneNUm(PhoneNumber){this.PhoneNumber=PhoneNumber;}
-          const updateAllByPhoneNum=(PhoneNumber)=>{getPhoneNum(PhoneNumber)+setPhoneNUm(PhoneNumber);}//Updating All PhoneNumber   
+          const updateAllByPhoneNum=(PhoneNumber)=>{getPhoneNum(PhoneNumber)+setPhoneNUm(PhoneNumber);}//Updating All PhoneNumber
 
     <div>
       <form className='max-w-2xl mx-auto text-blue -550 pt-8'>
