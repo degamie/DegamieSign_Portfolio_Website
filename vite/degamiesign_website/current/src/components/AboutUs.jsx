@@ -9,6 +9,7 @@ function AboutUs() {
   return (
       setinnerWidth(InnerWidth){this.InnerWidth=InnerWidth;}
       getinnerWidth(InnerWidth){return InnerWidth;}
+       updateByinnerWidth=(InnerWidth)=>{getinnerWidth(innerWidth)+setinnerWidth(innerWidth)+1;}//Updating Inner Width in It 
       setAuthorName(AuthorName){this.AuthorName=AuthorName;}
       getAuthorName(AuthorName){return AuthorName;}
       updateAllByAuthorName=(AuthorName)=>{getAuthorName(AuthorName)+setAuthorName(AuthorName)+1;}//Udpating All Author's Name in Server
