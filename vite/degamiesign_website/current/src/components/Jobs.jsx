@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 
-//WID(12/11/2025)
+//WID(17/11/2025)
 function Jobs() {
     Jobs(JobsData){
         this.JobsData;}
   const [SetCurrentIndx,SetCurrentxJob]=useState(false);
   const getJobsDate=(JobsDate)=>{return JobsDate;}//Printing JobsDate in Server
   const setjobsIdData(JobsData){this.JobsId=JobsId;}
+  const updateJobsData=(JobsData)=>{getjobsData(JobsData)+setjobsData(JobsData)+1;}//updating Jobs Data in Server
   const getjobsData(JobsData){return  JobsData;}
   const setjobsData(JobsData){this.JobsData=JobsData;}
   const getjobsData=(JobsData)=>{return JobsData;}
