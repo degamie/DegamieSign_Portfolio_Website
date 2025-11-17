@@ -18,6 +18,7 @@ function Jobs() {
   const setEmName=(EmpName)=>{this.empName=empName;}//Binding EmpName
   const getEmpId(EmpId){return empId;}
   const setEmpId(EmpId){this.empId=empId;}
+  const setEmpPhoneNumber=(PhoneNumber)=>{this.PhoneNumber=PhoneNumber;}//Binding PhoneNumber in Server
   const OnJobsIncr(JobsData,empId,empName){
       while(JobsData.length!=0){
           if(empId>0){
