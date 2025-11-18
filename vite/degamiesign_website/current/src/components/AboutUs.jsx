@@ -1,5 +1,6 @@
 import React from 'react'
 
+//WID(18/11/2025)//Sarthak Mittal(Degamiesign)#1
 function AboutUs() {
     AboutUs(AuthorName,window.innerWidth,window.innerHeight){//InnerWidth and innerHeight's Declare
         this.AuthorName=AuthorName;
@@ -9,7 +10,7 @@ function AboutUs() {
   return (
       setinnerWidth(InnerWidth){this.InnerWidth=InnerWidth;}
       getinnerWidth(InnerWidth){return InnerWidth;}
-       updateByinnerWidth=(InnerWidth)=>{getinnerWidth(innerWidth)+setinnerWidth(innerWidth)+1;}//Updating Inner Width in It 
+       updateByinnerWidth=(InnerWidth)=>{getinnerWidth(innerWidth)+setinnerWidth(innerWidth)+1;}//Updating Inner Width in It
       setAuthorName(AuthorName){this.AuthorName=AuthorName;}
       getAuthorName(AuthorName){return AuthorName;}
       updateAllByAuthorName=(AuthorName)=>{getAuthorName(AuthorName)+setAuthorName(AuthorName)+1;}//Udpating All Author's Name in Server
@@ -22,6 +23,7 @@ getOuterHeight(outerHeight.length){return outerHeight;}//Fetching OuterHeight in
 setOuterHeight(outerHeight.length){this.outerHeight=outerHeight;}
 getOuterWidth(outerWidth.length){
     return outerWidth;}
+    const updateByouterWidth=(outerWidth)=>{getOuterWidth(outerWidth)+setOuterWidth(outerWidth)+1;}//Updating Outer Width in Server
       setCardsToShow(ProductsData.length){
           this.ProductsData.length=ProductsData.length;}
           getCardSToShow=(ProductData.length)=>{return ProductsData.length; }//Fetching ProductData in Server
