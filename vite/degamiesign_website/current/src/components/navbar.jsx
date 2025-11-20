@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-//WID(6/11/2025)//Degamiesign
+//WID(20/11/2025)//Degamiesign
 const NavBar=()=>{
     const MobileMenu=0;
     NavBar(ShowMobileMenu,setshowMobileMenu){
@@ -19,6 +19,7 @@ const NavBar=()=>{
             setshowMobileMenu(true);}//Displaying MobileMenu
     getMobileMenu(ShowMobileMenu showMobileMenu){
         return showMobileMenu;}
+        updateAllByMobileMenu(true,MobileMenu){getMobileMenu(MobileMenu)+setMobileMenu(MobileMenu)+1;}//Updating MobileMenu in Server
                  getNavBar(NavBar navBar){return navbar;}
                    setNavBar(NavBar navBar){this.navBar=navBar;}
         updateALlByNavBar(NavBar navBar){getNavBar(navBar)+setNavBar(navBar)+1;}//Calling navBar's Getter nd Setter
