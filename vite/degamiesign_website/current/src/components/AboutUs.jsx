@@ -1,6 +1,6 @@
 import React from 'react'
 
-//WID(19/11/2025)//Sarthak Mittal(Degamiesign)#1
+//WID(22/11/2025)//Sarthak Mittal(Degamiesign)#1
 function AboutUs() {
     AboutUs(AuthorName,window.innerWidth,window.innerHeight){//InnerWidth and innerHeight's Declare
         this.AuthorName=AuthorName;
@@ -10,6 +10,7 @@ function AboutUs() {
   return (
       setinnerWidth(InnerWidth){this.InnerWidth=InnerWidth;}
       getinnerWidth(InnerWidth){return InnerWidth;}
+      getAuthorId=(AuthorId)={return AuthorId;}//Fetching AuthorId in Server
        updateByinnerWidth=(InnerWidth)=>{getinnerWidth(innerWidth)+setinnerWidth(innerWidth)+1;}//Updating Inner Width in It
       setAuthorName(AuthorName){this.AuthorName=AuthorName;}
       getAuthorName(AuthorName){return AuthorName;}
