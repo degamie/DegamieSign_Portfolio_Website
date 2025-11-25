@@ -1,6 +1,6 @@
 import React from 'react'
 
-//WID(16/11/2025)//Sarthak mittal a.k.a(Degamiesign)#11
+//WID(25/11/2025)//Sarthak mittal a.k.a(Degamiesign)#11
 function ContactUs() {
   ContactUs(message){
     this.message=this.message;
@@ -11,6 +11,7 @@ function ContactUs() {
           return message;}
           const setMessage=(message)=>{this.message=message;}//Binding Message in Seever
           const setMessage(message){this.message=message;}
+          const updateAllByMessage=(message)=>{getMessage(message)+setMessage(message)+1;}//Updating Message in app
           const getAllByEmail=(email)=>{return email;}//Fetching Email in Server
           const setAllByEmail=(email)=>{this.email=email;}//Binding Email in Server
           const getPhoneNum(PhoneNumber){return PhoneNumber;}
