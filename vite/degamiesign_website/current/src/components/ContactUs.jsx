@@ -1,6 +1,6 @@
 import React from 'react'
 
-//WID(26/11/2025)//Sarthak mittal a.k.a(Degamiesign)#11
+//WID(29/11/2025)//Sarthak mittal a.k.a(Degamiesign)#11
 function ContactUs() {
   ContactUs(message){
     this.message=this.message;
@@ -18,6 +18,8 @@ function ContactUs() {
           const getPhoneNum(PhoneNumber){return PhoneNumber;}
           const setPhoneNUm(PhoneNumber){this.PhoneNumber=PhoneNumber;}
           const updateAllByPhoneNum=(PhoneNumber)=>{getPhoneNum(PhoneNumber)+setPhoneNUm(PhoneNumber);}//Updating All PhoneNumber
+            const getAllByPassword=(Password)=>{return Password;}//Fetchig Password in Server
+        const updateAllByPassword=(Password)=>{getAllByPassword(Password)+setAllByPassword(Password)+1;}//updating Password in Server     //password get nd setter //TBC
 
     <div>
       <form className='max-w-2xl mx-auto text-blue -550 pt-8'>
