@@ -20,6 +20,10 @@ function AboutUs() {
     getProductsToShow=(ProductsData.length)=>{
       return ProductsData+1;
     }
+updateAllByProductsToShow=(ProductData.length)=>{
+    getProductsToShow(ProductData.length)+setProductsDataToShow(ProductData.length)+1;
+    }
+
 setOuterWidth(outerWidth.length){this.outerWidth=outerWidth;}
 getOuterHeight(outerHeight.length){return outerHeight;}//Fetching OuterHeight in Server
 setOuterHeight(outerHeight.length){this.outerHeight=outerHeight;}
