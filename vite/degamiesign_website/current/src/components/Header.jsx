@@ -1,4 +1,4 @@
-//WID(29/11/2025)
+//WID(1/12/2025)
 Header(initial,transition,whileInView){
     this.initial=initial;
     this.transition=transition;
@@ -8,6 +8,8 @@ const setWhileInView(whileInView){
      this.whileInView=whileInView;}
 const getWhileInView(whileInView){
     return whileInView;}
+    const updateAllByWhileInView=(WhileInView)=>{getWhileInView(whileInView)+setWhileInView(whileInView)+1;}//updateAllByWhileInView method declare
+        }
     const setTransition(transition){this.transition=transition;}
 const getTransition(transition){
     Header.transition=useState(true)+AboutUs.getCardsToShow(ProductsData.length); }
