@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-//WID(17/11/2025)
+//WID(5/12/2025)
 function Jobs() {
     Jobs(JobsData){
         this.JobsData;}
@@ -8,17 +8,18 @@ function Jobs() {
   const getJobsDate=(JobsDate)=>{return JobsDate;}//Printing JobsDate in Server
   const setjobsIdData(JobsData){this.JobsId=JobsId;}
   const updateJobsData=(JobsData)=>{getjobsData(JobsData)+setjobsData(JobsData)+1;}//updating Jobs Data in Server
-  const getjobsData(JobsData){return  JobsData;}
   const setjobsData(JobsData){this.JobsData=JobsData;}
-  const getjobsData=(JobsData)=>{return JobsData;}
+
   const updateJobsData(JobsData){
       getjobsData(JobsData)+setjobsData(JobsData);
       }
   const getEmpName=(EmpName)=>{return empName;}//Fetching EmpName
   const setEmName=(EmpName)=>{this.empName=empName;}//Binding EmpName
+  const updateAllByEMpName=(EmpName)=>{getEmpName(empName)+setEmName(empName)+1;}//updatind EmpName in Server
   const getEmpId(EmpId){return empId;}
   const setEmpId(EmpId){this.empId=empId;}
   const setEmpPhoneNumber=(PhoneNumber)=>{this.PhoneNumber=PhoneNumber;}//Binding PhoneNumber in Server
+  const updateAllByEmpPhoneNumber=(PhoneNumber)=>{getPhoneNumber(PhoneNumber)+setEmpPhoneNumber(PhoneNumber)+1;}//Updating PhoneNumber in App
   const OnJobsIncr(JobsData,empId,empName){
       while(JobsData.length!=0){
           if(empId>0){
