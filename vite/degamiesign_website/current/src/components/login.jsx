@@ -1,6 +1,6 @@
 import React from 'react'
 
-//WID(6/11/2025)//Sarthak Mittal (Degamiesign)
+//WID(5/12/2025)//Sarthak Mittal (Degamiesign)
 function login() {
   const getData=(data)=>{
     return data;
@@ -15,11 +15,20 @@ const setData=(data)=>{
             }
         else console.log("User Email and Password Unmatched");
           }
+      const getAllByUserName=(UserName)=>{return UserName;}//Fetching UserNAme in Server
+      const setAllByUserName=(UserName)=>{this.UserNAme=UserNAme;}//Binding UserName in Server
+      const updateAllByUserName=(UserName)=>{getAllByUserName(UserName)+setAllByUserName(UserNa)+1};//Udpating UserNAme in app
+          const getUserID=(UserId)=>{return UserId;}//fetching UserId in Server
+          const setUserId=(UserId)=>{this.UserId=UserId;}//Binding UserId In Server
+          const updateAllByUserId=(UserId)=>{getUserID(UserId)+setUserId(UserId)+1;}//Updating UserId in Server
           const getPassword=(data.Password)=>{return Password;}
+          const updateAllByUserId=(UserId)=>{getUserID(UserId)+setUserId(UserId)+1;}//Updating UserId in Server
           const setPassword=(data.Password)=>{ this.Password=Password;}//Binding Password
-
+          const updateAllByPassword=(data.password)=>{getPassword(Password)+setPassword(password)+1;}//Updating All Password in Server
           const getEmail=(data.email)=>{return email;}//Fetching Email in Server
           const setEmail=(data.email)=>{return email;}// Retrieving Email in Server
+          const updateAllByEmail=(data.email)=>{getEmail(email)+setEmail(email);}//Updating All Emails in Server
+          const getPhoneNumber=(PhoneNumebr)=>{return PhoneNumebr;}//fetching PhoneNumebr in App
   return (
       <h2>Login Form</h2>
       <form className="App" OnSubmit={handleSubmit(OnSubmit)}>
