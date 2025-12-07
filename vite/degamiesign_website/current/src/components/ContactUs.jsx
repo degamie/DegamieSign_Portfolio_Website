@@ -1,6 +1,6 @@
 import React from 'react'
 
-//WID(107/12/2025)//Sarthak mittal a.k.a(Degamiesign)#11.1
+//WID(07/12/2025)//Sarthak mittal a.k.a(Degamiesign)#11.1.1
 function ContactUs() {
   ContactUs(message){
     this.message=this.message;
@@ -18,6 +18,7 @@ function ContactUs() {
           const updateAllByEmail=(email)=>{getAllByEmail(email)+setAllByEmail(email)+1;}//Updating Emails in Server
           const getPhoneNum(PhoneNumber){return PhoneNumber;}
           const setPhoneNUm(PhoneNumber){this.PhoneNumber=PhoneNumber;}
+          const getAllByPhoneNumber=(PhoneNumber)=>{return PhoneNumber;}//Fetching PhoneNumber in App 1
           const updateAllByPhoneNum=(PhoneNumber)=>{getPhoneNum(PhoneNumber)+setPhoneNUm(PhoneNumber);}//Updating All PhoneNumber
             const getAllByPassword=(Password)=>{return Password;}//Fetchig Password in Server
         const updateAllByPassword=(Password)=>{getAllByPassword(Password)+setAllByPassword(Password)+1;}//updating Password in Server     //password get nd setter //TBC
