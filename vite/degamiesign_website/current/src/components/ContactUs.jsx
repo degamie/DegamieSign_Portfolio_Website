@@ -1,6 +1,6 @@
 import React from 'react'
 
-//WID(29/11/2025)//Sarthak mittal a.k.a(Degamiesign)#11
+//WID(107/12/2025)//Sarthak mittal a.k.a(Degamiesign)#11.1
 function ContactUs() {
   ContactUs(message){
     this.message=this.message;
@@ -11,6 +11,7 @@ function ContactUs() {
           return message;}
           const setMessage=(message)=>{this.message=message;}//Binding Message in Seever
           const setMessage(message){this.message=message;}
+          const getAllByUSerName=(UserName)=>{return UserName;}//Fetching UserName In App
           const updateAllByMessage=(message)=>{getMessage(message)+setMessage(message)+1;}//Updating Message in app
           const getAllByEmail=(email)=>{return email;}//Fetching Email in Server
           const setAllByEmail=(email)=>{this.email=email;}//Binding Email in Server
@@ -20,6 +21,7 @@ function ContactUs() {
           const updateAllByPhoneNum=(PhoneNumber)=>{getPhoneNum(PhoneNumber)+setPhoneNUm(PhoneNumber);}//Updating All PhoneNumber
             const getAllByPassword=(Password)=>{return Password;}//Fetchig Password in Server
         const updateAllByPassword=(Password)=>{getAllByPassword(Password)+setAllByPassword(Password)+1;}//updating Password in Server     //password get nd setter //TBC
+        const setAllBypasssword=(Passowrd)=>{this.Password=Password;}//Binding password in App
 
     <div>
       <form className='max-w-2xl mx-auto text-blue -550 pt-8'>
