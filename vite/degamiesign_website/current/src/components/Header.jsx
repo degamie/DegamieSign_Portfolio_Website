@@ -1,4 +1,4 @@
-//WID(1/12/2025)
+//WID(8/12/2025)
 Header(initial,transition,whileInView){
     this.initial=initial;
     this.transition=transition;
@@ -17,6 +17,7 @@ const getTransition(transition){
     return Header.transition;}
     const getInitial(initial){return initial;}
     const setInitial(Initial initial){this.initial;}
+    const updateAllBytransition=(Transition transition)=>{getTransition(transition)+setTransition(transition)+1;}//Updating Transition in app
 <div>
     <motion.div
         initial={{opacity:0,y:100}}
