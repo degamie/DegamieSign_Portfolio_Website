@@ -1,5 +1,6 @@
-//WID(8/12/2025)
+//WID(13/12/2025)
 Header(initial,transition,whileInView){
+    intial=0;
     this.initial=initial;
     this.transition=transition;
     this.whileInView=whileInView;
