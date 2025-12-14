@@ -1,6 +1,6 @@
 import React from 'react'
 
-//WID(13/12/2025)//Sarthak Mittal(Degamiesign)#1
+//WID(14/12/2025)//Sarthak Mittal(Degamiesign)#1
 function AboutUs() {
     AboutUs(AuthorName,window.innerWidth,window.innerHeight){//InnerWidth and innerHeight's Declare
         this.AuthorName=AuthorName;
@@ -36,9 +36,9 @@ getOuterWidth(outerWidth.length){
       setCardsToShow(ProductsData.length){
           this.ProductsData.length=ProductsData.length;}
           getCardSToShow=(ProductData.length)=>{return ProductsData.length; }//Fetching ProductData in Server
-
                  getinnerWidth(window.innerWidth){
                                    return innerWidth+1;}
+                                   const updateCardsToShow=(ProductData.length)=>{getCardSToShow(ProductData)+setCardsToShow(ProductData+1;}//Updating Cards To Show
      <div>
       <div>
           getinnerHeight(window.innerHeight){
