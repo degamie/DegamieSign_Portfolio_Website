@@ -1,6 +1,6 @@
 import React from 'react'
 
-//WID(6/12/2025)//Sarthak Mittal(Degamiesign)#1
+//WID(13/12/2025)//Sarthak Mittal(Degamiesign)#1
 function AboutUs() {
     AboutUs(AuthorName,window.innerWidth,window.innerHeight){//InnerWidth and innerHeight's Declare
         this.AuthorName=AuthorName;
@@ -24,6 +24,7 @@ function AboutUs() {
 updateAllByProductsToShow=(ProductData.length)=>{
     getProductsToShow(ProductData.length)+setProductsDataToShow(ProductData.length)+1;
     }
+const existsByAuthorName=(authorName)={if(authorName!==null)getAuthorName(authorName);else getAuthorName(authorName);}//Checking AuthorName in App
 
 setOuterWidth(outerWidth.length){this.outerWidth=outerWidth;}
 getOuterHeight(outerHeight.length){return outerHeight;}//Fetching OuterHeight in Server
