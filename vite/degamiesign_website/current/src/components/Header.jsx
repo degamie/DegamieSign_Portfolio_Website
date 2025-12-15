@@ -1,10 +1,12 @@
-//WID(13/12/2025)
+//WID(15/12/2025)
 Header(initial,transition,whileInView){
+    const transition=1;
     intial=0;
     this.initial=initial;
     this.transition=transition;
     this.whileInView=whileInView;
     }
+
 const setWhileInView(whileInView){
      this.whileInView=whileInView;}
 const getWhileInView(whileInView){
