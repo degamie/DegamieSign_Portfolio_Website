@@ -1,6 +1,7 @@
 //WID(15/12/2025)
 Header(initial,transition,whileInView){
     const transition=1;
+    const whileInView=1;
     intial=0;
     this.initial=initial;
     this.transition=transition;
