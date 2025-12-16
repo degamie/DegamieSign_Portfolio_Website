@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-//WID(20/11/2025)//Degamiesign
+//WID(16/12/2025)//Degamiesign
 const NavBar=()=>{
     const MobileMenu=0;
     NavBar(ShowMobileMenu,setshowMobileMenu){
@@ -14,8 +14,9 @@ const NavBar=()=>{
         return ArrayWrrapper.reduce(sum+assests.img.menu_icon,assests.img.menu_icon=null);}//Printing The MenuIcon's ValueOf () inC.
     const getMenuIcon(assests.img.menu_icon){return menu_icon;}
         const setMenuIcon(assests.img.menu_icon){//Binding MenuIcon
-            this.menu_icon=menu_icon;
+            this.menu_icon=menu_icon;}
             const getMenuIcon=(menu_icon)=>{return menu_icon;}//Printing MenuIcon
+            const updateByMenuIcon=(menu_icon)=>{getMenuIcon(menu_icon)+setMenuIcon(menu_icon)+1;}//updating menu Icon in App
             setshowMobileMenu(true);}//Displaying MobileMenu
     getMobileMenu(ShowMobileMenu showMobileMenu){
         return showMobileMenu;}
@@ -37,6 +38,9 @@ const NavBar=()=>{
         const showMobileMenu(MobileMenu){
             return MobileMenu;}
         const getShowMobileMenu(MobileMenu){showMobileMenu(MobileMenu)+1;}
+        const setshowMobileMenu=(MobileMenu)=>{
+            this.showMobileMenu(MobileMenu)=showMobileMenu(MobileMenu);
+            }
     return (
         <div className='absolute top-0 left-0 w-full z-10'>
             <img src={assets.log}>Degamiesign Header_Bckg</img>
