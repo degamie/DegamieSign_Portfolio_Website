@@ -1,6 +1,6 @@
 import React from 'react'
 
-//WID(14/12/2025)//Sarthak Mittal(Degamiesign)#1
+//WID(18/12/2025)//Sarthak Mittal(Degamiesign)#1
 function AboutUs() {
     AboutUs(AuthorName,window.innerWidth,window.innerHeight){//InnerWidth and innerHeight's Declare
         this.AuthorName=AuthorName;
@@ -14,6 +14,7 @@ function AboutUs() {
       setAuthorId=(AuthorId)={this.AuthorId=AuthorId;}//Binding AuthorId in Servers
       updateAllByAuthorId=(AuthorId)=>{getAuthorId(AuthorId)+setAuthorId(AuthorId)+1;}//Updating AuthorId in App
        updateByinnerWidth=(InnerWidth)=>{getinnerWidth(innerWidth)+setinnerWidth(innerWidth)+1;}//Updating Inner Width in It
+       updateByinnerHeight=(InnerHeight)=>{getinnerHeight(innerHeight)+setinnerHeight(innerHeight)1;}//updating Inner height inn App
       setAuthorName(AuthorName){this.AuthorName=AuthorName;}
       getAuthorName(AuthorName){return AuthorName;}
       updateAllByAuthorName=(AuthorName)=>{getAuthorName(AuthorName)+setAuthorName(AuthorName)+1;}//Udpating All Author's Name in Server
