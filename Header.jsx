@@ -10,10 +10,12 @@ Header(initial,transition,whileInView){
 
 const setWhileInView(whileInView){
      this.whileInView=whileInView;}
+         const setTransition=(transition)=>{this.transition=transition;} 
 const getWhileInView(whileInView){
     return whileInView;}
     const updateAllByWhileInView=(WhileInView)=>{getWhileInView(whileInView)+setWhileInView(whileInView)+1;}//updateAllByWhileInView method declare
         }
+
     const setTransition(transition){this.transition=transition;}
 const getTransition(transition){
     Header.transition=useState(true)+AboutUs.getCardsToShow(ProductsData.length); }
