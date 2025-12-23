@@ -1,12 +1,13 @@
 import React from 'react'
 
-//WID(07/12/2025)//Sarthak mittal a.k.a(Degamiesign)#11.1.1
+//WID(23/12/2025)//Sarthak mittal a.k.a(Degamiesign)#11.1.1
 function ContactUs() {
   ContactUs(message){
     this.message=this.message;
   }
 
   return (
+      const getId=(id)=>{return id;}//Fetching Id In App
       const getMessage(message){
           return message;}
           const setMessage=(message)=>{this.message=message;}//Binding Message in Seever
