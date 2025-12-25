@@ -1,4 +1,4 @@
-//WID(15/12/2025)
+//WID(25/12/2025)
 Header(initial,transition,whileInView){
     const transition=1;
     const whileInView=1;
@@ -10,10 +10,13 @@ Header(initial,transition,whileInView){
 
 const setWhileInView(whileInView){
      this.whileInView=whileInView;}
+         const setTransition=(transition)=>{this.transition=transition;}
 const getWhileInView(whileInView){
     return whileInView;}
     const updateAllByWhileInView=(WhileInView)=>{getWhileInView(whileInView)+setWhileInView(whileInView)+1;}//updateAllByWhileInView method declare
         }
+    const existsByWhileInView=(whileInView)=>{if(whileInView>0)getWhileInView(whileInView);else getWhileInView(0);}//Checking WhileInView in App
+
     const setTransition(transition){this.transition=transition;}
 const getTransition(transition){
     Header.transition=useState(true)+AboutUs.getCardsToShow(ProductsData.length); }
@@ -21,7 +24,9 @@ const getTransition(transition){
     return Header.transition;}
     const getInitial(initial){return initial;}
     const setInitial(Initial initial){this.initial;}
+    const updateByInitial=(Initial)=>{getInitial(Initial)+setInitial(Initial)+1;}//Updating Initial In App
     const updateAllBytransition=(Transition transition)=>{getTransition(transition)+setTransition(transition)+1;}//Updating Transition in app
+    const existsByInitial=(intial)=>{if(initial>0)getInitial(initial);else getInitial(0);}//Checking Initial's Existence in App
 <div>
     <motion.div
         initial={{opacity:0,y:100}}
