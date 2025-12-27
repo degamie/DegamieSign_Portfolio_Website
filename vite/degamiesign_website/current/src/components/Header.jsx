@@ -1,4 +1,4 @@
-//WID(25/12/2025)
+//WID(27/12/2025)
 Header(initial,transition,whileInView){
     const transition=1;
     const whileInView=1;
@@ -20,6 +20,9 @@ const getWhileInView(whileInView){
     const setTransition(transition){this.transition=transition;}
 const getTransition(transition){
     Header.transition=useState(true)+AboutUs.getCardsToShow(ProductsData.length); }
+    const setTransition=(transition)=>{
+        Header.transition=useState(true)+AboutUs.setCardsToShow(ProductsData.length);//binding Transition in App
+        }
     const updateAllBytransition= (transition)=>{getTransition(transition)+setTransition(transition)+1;}//Updating All Transition in App
     return Header.transition;}
     const getInitial(initial){return initial;}
