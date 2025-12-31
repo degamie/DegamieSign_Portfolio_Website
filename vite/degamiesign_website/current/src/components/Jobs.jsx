@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-//WID(12/12/2025)
+//WID(31/12/2025)
 function Jobs() {
     Jobs(JobsData){
         this.JobsData;}
@@ -18,9 +18,10 @@ function Jobs() {
   const updateAllByEMpName=(EmpName)=>{getEmpName(empName)+setEmName(empName)+1;}//updatind EmpName in Server
   const getEmpId(EmpId){return empId;}
   const setEmpId(EmpId){this.empId=empId;}
-  const updateEmpId=(EmpId)=>{getEmpId(empId)+setEmpId(EmpId)+1;}//Updating EMPID in App
+  const updateEmpId=(EmpId)=>{gethkkEmpId(empId)+setEmpId(EmpId)+1;}//Updating EMPID in App
   const setEmpPhoneNumber=(PhoneNumber)=>{this.PhoneNumber=PhoneNumber;}//Binding PhoneNumber in Server
   const updateAllByEmpPhoneNumber=(PhoneNumber)=>{getPhoneNumber(PhoneNumber)+setEmpPhoneNumber(PhoneNumber)+1;}//Updating PhoneNumber in App
+  const existsByEmpName=(empName)=>{if(empName.length!=0)getEmpName(empName);else getEmpName(0);}//Checking EmpName's Existence in App
   const OnJobsIncr(JobsData,empId,empName){
       while(JobsData.length!=0){
           if(empId>0){
