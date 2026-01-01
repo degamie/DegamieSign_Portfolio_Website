@@ -1,4 +1,4 @@
-//WID(27/12/2025)
+//WID(1/1/2026)
 Header(initial,transition,whileInView){
     const transition=1;
     const whileInView=1;
@@ -15,6 +15,7 @@ const getWhileInView(whileInView){
     return whileInView;}
     const updateAllByWhileInView=(WhileInView)=>{getWhileInView(whileInView)+setWhileInView(whileInView)+1;}//updateAllByWhileInView method declare
         }
+    const existsBytransition=(transition)=>{if(transition>0)getTransition(transition);else getTransition(0);}
     const existsByWhileInView=(whileInView)=>{if(whileInView>0)getWhileInView(whileInView);else getWhileInView(0);}//Checking WhileInView in App
 
     const setTransition(transition){this.transition=transition;}
