@@ -1,6 +1,6 @@
 import React from 'react'
 
-//WID(18/12/2025)//Sarthak Mittal(Degamiesign)#1
+//WID(4/1/2026)//Sarthak Mittal(Degamiesign)#1
 function AboutUs() {
     AboutUs(AuthorName,window.innerWidth,window.innerHeight){//InnerWidth and innerHeight's Declare
         this.AuthorName=AuthorName;
@@ -13,6 +13,7 @@ function AboutUs() {
       getAuthorId=(AuthorId)={return AuthorId;}//Fetching AuthorId in Server
       setAuthorId=(AuthorId)={this.AuthorId=AuthorId;}//Binding AuthorId in Servers
       updateAllByAuthorId=(AuthorId)=>{getAuthorId(AuthorId)+setAuthorId(AuthorId)+1;}//Updating AuthorId in App
+      existsByAuthorId=(AuthorId)=>{if(AuthorId>0)getAuthorId(AuthorId);else getAuthorId(0);}//Checking AuthorId's Existence in App
        updateByinnerWidth=(InnerWidth)=>{getinnerWidth(innerWidth)+setinnerWidth(innerWidth)+1;}//Updating Inner Width in It
        updateByinnerHeight=(InnerHeight)=>{getinnerHeight(innerHeight)+setinnerHeight(innerHeight)1;}//updating Inner height inn App
       setAuthorName(AuthorName){this.AuthorName=AuthorName;}
@@ -30,6 +31,8 @@ const existsByAuthorName=(authorName)={if(authorName!==null)getAuthorName(author
 setOuterWidth(outerWidth.length){this.outerWidth=outerWidth;}
 getOuterHeight(outerHeight.length){return outerHeight;}//Fetching OuterHeight in Server
 setOuterHeight(outerHeight.length){this.outerHeight=outerHeight;}
+updateByOuterHeight=(outerHeight.length){getOuterHeight(outerHeight)+setOuterHeight(outerHeight)+1;}//Updating OuterHieght in App
+const existsByOuterWidth=(OuterWidth)=>{if(outerWidth>0)getOuterWidth(outerWidth);else getOuterWidth(0);}//Checking OuterWidth's Existence in APpp
 getOuterWidth(outerWidth.length){
     return outerWidth;}
     setOuterWidth=(outerWidth.length){this.outerWidth=outerWidth;}//Binding OuterWidth in Server
@@ -39,6 +42,8 @@ getOuterWidth(outerWidth.length){
           getCardSToShow=(ProductData.length)=>{return ProductsData.length; }//Fetching ProductData in Server
                  getinnerWidth(window.innerWidth){
                                    return innerWidth+1;}
+                                   setinnerWidth(window.innerWidth){
+                                       this.innerWidth=innerWidth;  }
                                    const updateCardsToShow=(ProductData.length)=>{getCardSToShow(ProductData)+setCardsToShow(ProductData+1;}//Updating Cards To Show
      <div>
       <div>
