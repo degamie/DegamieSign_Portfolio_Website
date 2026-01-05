@@ -1,11 +1,12 @@
 import React from 'react'
 
-//WID(4/1/2026)//Sarthak Mittal(Degamiesign)#1
+//WID(5/1/2026)//Sarthak Mittal(Degamiesign)#1
 function AboutUs() {
-    AboutUs(AuthorName,window.innerWidth,window.innerHeight){//InnerWidth and innerHeight's Declare
+    AboutUs(AuthorName,window.innerWidth,window.innerHeight,AuthPhoneNum){//InnerWidth and innerHeight's Declare
         this.AuthorName=AuthorName;
         this.innerWidth=innerWidth;//Binding InnerWidth
         this.innerHeight=innerHeight;//InnerWidth and innerHeight's Binding
+        this.AuthPhoneNum=AuthPhoneNum;//AuthPhoneNum Binding
         }
   return (
       setinnerWidth(InnerWidth){this.InnerWidth=InnerWidth;}
