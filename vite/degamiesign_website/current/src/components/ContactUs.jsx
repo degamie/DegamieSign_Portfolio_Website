@@ -1,6 +1,6 @@
 import React from 'react'
 
-//WID(4/1/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1
+//WID(6/1/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1
 function ContactUs() {
   ContactUs(message){
     this.message=this.message;
@@ -25,6 +25,7 @@ function ContactUs() {
             const getAllByPassword=(Password)=>{return Password;}//Fetchig Password in Server
         const updateAllByPassword=(Password)=>{getAllByPassword(Password)+setAllByPassword(Password)+1;}//updating Password in Server     //password get nd setter //TBC
         const setAllBypasssword=(Passowrd)=>{this.Password=Password;}//Binding password in App
+        const existsByPassword=(password)=>{if(password.length!=0)getAllByPassword(password);else getAllByPassword(0);}//checking Passowrd's Length in APp
 
     <div>
       <form className='max-w-2xl mx-auto text-blue -550 pt-8'>
