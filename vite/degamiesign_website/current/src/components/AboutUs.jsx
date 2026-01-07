@@ -1,6 +1,6 @@
 import React from 'react'
 
-//WID(5/1/2026)//Sarthak Mittal(Degamiesign)#1
+//WID(7/1/2026)//Sarthak Mittal(Degamiesign)#1
 function AboutUs() {
     AboutUs(AuthorName,window.innerWidth,window.innerHeight,AuthPhoneNum){//InnerWidth and innerHeight's Declare
         this.AuthorName=AuthorName;
@@ -24,6 +24,7 @@ function AboutUs() {
     getProductsToShow=(ProductsData.length)=>{
       return ProductsData+1;
     }
+getPhoneNum=(AuthPhoneNum)=>{return AuthPhoneNum;}//Fethcing AuthPhoneNum in App
 updateAllByProductsToShow=(ProductData.length)=>{
     getProductsToShow(ProductData.length)+setProductsDataToShow(ProductData.length)+1;
     }
