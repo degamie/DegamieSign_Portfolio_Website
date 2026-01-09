@@ -1,4 +1,4 @@
-//WID(7/1/2026)(DegamieSign)
+//WID(9/1/2026)(DegamieSign)
 Header(initial,transition,whileInView){
     const transition=1;
     const whileInView=1;
@@ -7,6 +7,7 @@ Header(initial,transition,whileInView){
     this.transition=transition;
     this.whileInView=whileInView;
     }
+const getTransition=(transition)=>{return transition;}//Fetching Transition in Server
 
 const setWhileInView(whileInView){
      this.whileInView=whileInView;}
