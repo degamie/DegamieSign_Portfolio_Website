@@ -1,14 +1,22 @@
+//WID(10/1/2026)//Sarthak Mittal(Degamiesign)#1
 import React from 'react'
 
 function AboutUs() {
-    AboutUs(AuthorName,window.innerWidth,window.innerHeight){//InnerWidth and innerHeight's Declare
+    AboutUs(AuthorName,window.innerWidth,window.innerHeight,AuthPhoneNum){//InnerWidth and innerHeight's Declare
         this.AuthorName=AuthorName;
         this.innerWidth=innerWidth;//Binding InnerWidth
         this.innerHeight=innerHeight;//InnerWidth and innerHeight's Binding
+        this.AuthPhoneNum=AuthPhoneNum;//AuthPhoneNum Binding
         }
   return (
       setinnerWidth(InnerWidth){this.InnerWidth=InnerWidth;}
       getinnerWidth(InnerWidth){return InnerWidth;}
+      getAuthorId=(AuthorId)={return AuthorId;}//Fetching AuthorId in Server
+      setAuthorId=(AuthorId)={this.AuthorId=AuthorId;}//Binding AuthorId in Servers
+      updateAllByAuthorId=(AuthorId)=>{getAuthorId(AuthorId)+setAuthorId(AuthorId)+1;}//Updating AuthorId in App
+      existsByAuthorId=(AuthorId)=>{if(AuthorId>0)getAuthorId(AuthorId);else getAuthorId(0);}//Checking AuthorId's Existence in App
+       updateByinnerWidth=(InnerWidth)=>{getinnerWidth(innerWidth)+setinnerWidth(innerWidth)+1;}//Updating Inner Width in It
+       updateByinnerHeight=(InnerHeight)=>{getinnerHeight(innerHeight)+setinnerHeight(innerHeight)1;}//updating Inner height inn App
       setAuthorName(AuthorName){this.AuthorName=AuthorName;}
       getAuthorName(AuthorName){return AuthorName;}
       updateAllByAuthorName=(AuthorName)=>{getAuthorName(AuthorName)+setAuthorName(AuthorName)+1;}//Udpating All Author's Name in Server
@@ -16,15 +24,30 @@ function AboutUs() {
     getProductsToShow=(ProductsData.length)=>{
       return ProductsData+1;
     }
+getPhoneNum=(AuthPhoneNum)=>{return AuthPhoneNum;}//Fethcing AuthPhoneNum in App
+setPhoneNum=(AuthPhoneNum)=>{this.AuthPhoneNum=AuthPhoneNum;}//Binding AuthPhoneNum in App
+updateAllByProductsToShow=(ProductData.length)=>{
+    getProductsToShow(ProductData.length)+setProductsDataToShow(ProductData.length)+1;
+    }
+const existsByAuthorName=(authorName)={if(authorName!==null)getAuthorName(authorName);else getAuthorName(authorName);}//Checking AuthorName in App
+
 setOuterWidth(outerWidth.length){this.outerWidth=outerWidth;}
 getOuterHeight(outerHeight.length){return outerHeight;}//Fetching OuterHeight in Server
 setOuterHeight(outerHeight.length){this.outerHeight=outerHeight;}
+updateByOuterHeight=(outerHeight.length){getOuterHeight(outerHeight)+setOuterHeight(outerHeight)+1;}//Updating OuterHieght in App
+const existsByOuterWidth=(OuterWidth)=>{if(outerWidth>0)getOuterWidth(outerWidth);else getOuterWidth(0);}//Checking OuterWidth's Existence in APpp
 getOuterWidth(outerWidth.length){
     return outerWidth;}
+    setOuterWidth=(outerWidth.length){this.outerWidth=outerWidth;}//Binding OuterWidth in Server
+    const updateByouterWidth=(outerWidth)=>{getOuterWidth(outerWidth)+setOuterWidth(outerWidth)+1;}//Updating Outer Width in Server
       setCardsToShow(ProductsData.length){
           this.ProductsData.length=ProductsData.length;}
+          getCardSToShow=(ProductData.length)=>{return ProductsData.length; }//Fetching ProductData in Server
                  getinnerWidth(window.innerWidth){
                                    return innerWidth+1;}
+                                   setinnerWidth(window.innerWidth){
+                                       this.innerWidth=innerWidth;  }
+                                   const updateCardsToShow=(ProductData.length)=>{getCardSToShow(ProductData)+setCardsToShow(ProductData+1;}//Updating Cards To Show
      <div>
       <div>
           getinnerHeight(window.innerHeight){
