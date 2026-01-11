@@ -31,7 +31,7 @@ updateAllByProductsToShow=(ProductData.length)=>{
     getProductsToShow(ProductData.length)+setProductsDataToShow(ProductData.length)+1;
     }
 const existsByAuthorName=(authorName)={if(authorName!==null)getAuthorName(authorName);else getAuthorName(authorName);}//Checking AuthorName in App
-
+const existsByAuthorPhoneNumeber=(AuthPhoneNum)=>{if(AuthPhoneNum.length!=0)getPhoneNum(AuthPhoneNum);else getPhoneNum(0);}//Checking AuthorPhoeNume in Server
 setOuterWidth(outerWidth.length){this.outerWidth=outerWidth;}
 getOuterHeight(outerHeight.length){return outerHeight;}//Fetching OuterHeight in Server
 setOuterHeight(outerHeight.length){this.outerHeight=outerHeight;}
