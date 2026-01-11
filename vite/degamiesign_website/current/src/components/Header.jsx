@@ -1,5 +1,6 @@
-//WID(9/1/2026)(DegamieSign)
+//WID(11/1/2026)(DegamieSign)
 Header(initial,transition,whileInView){
+    const initial=0;
     const transition=1;
     const whileInView=1;
     intial=0;
