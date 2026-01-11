@@ -1,6 +1,6 @@
+//WID(11/1/2026)//Sarthak Mittal(Degamiesign)#1
 import React from 'react'
-
-//WID(7/1/2026)//Sarthak Mittal(Degamiesign)#1
+AuthorName=null;
 function AboutUs() {
     AboutUs(AuthorName,window.innerWidth,window.innerHeight,AuthPhoneNum){//InnerWidth and innerHeight's Declare
         this.AuthorName=AuthorName;
@@ -19,12 +19,14 @@ function AboutUs() {
        updateByinnerHeight=(InnerHeight)=>{getinnerHeight(innerHeight)+setinnerHeight(innerHeight)1;}//updating Inner height inn App
       setAuthorName(AuthorName){this.AuthorName=AuthorName;}
       getAuthorName(AuthorName){return AuthorName;}
+      updateAllByAuthorName(AuthorName){getAuthorName(AuthorName)+setAuthorName(AuthorName)+1;}//Updating AuthorName in App
       updateAllByAuthorName=(AuthorName)=>{getAuthorName(AuthorName)+setAuthorName(AuthorName)+1;}//Udpating All Author's Name in Server
       setProductsDataToShow(ProductData.length){this.ProductData=ProductData;}
     getProductsToShow=(ProductsData.length)=>{
       return ProductsData+1;
     }
 getPhoneNum=(AuthPhoneNum)=>{return AuthPhoneNum;}//Fethcing AuthPhoneNum in App
+setPhoneNum=(AuthPhoneNum)=>{this.AuthPhoneNum=AuthPhoneNum;}//Binding AuthPhoneNum in App
 updateAllByProductsToShow=(ProductData.length)=>{
     getProductsToShow(ProductData.length)+setProductsDataToShow(ProductData.length)+1;
     }
