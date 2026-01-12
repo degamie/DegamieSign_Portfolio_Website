@@ -1,8 +1,10 @@
+//WID(12/1/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1
 import React from 'react'
 
-//WID(6/1/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1
+
 function ContactUs() {
   ContactUs(message){
+      this.email=email;
     this.message=this.message;
   }
 
