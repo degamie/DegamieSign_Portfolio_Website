@@ -1,6 +1,6 @@
-//WID(12/1/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1
+//WID(14/1/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1
 import React from 'react'
-
+message=0;
 
 function ContactUs() {
   ContactUs(message){
