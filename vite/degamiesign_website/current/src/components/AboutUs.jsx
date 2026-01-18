@@ -1,4 +1,4 @@
-//WID(17/1/2026)//Sarthak Mittal(Degamiesign)#1
+//WID(18/1/2026)//Sarthak Mittal(Degamiesign)#1.1
 import React from 'react'
 AuthorName=null;innerWidth=0;AuthPhoneNum=0;//initialzing Variables
 function AboutUs() {
@@ -11,6 +11,7 @@ function AboutUs() {
   return (
       setinnerWidth(InnerWidth){this.InnerWidth=InnerWidth;}
       getinnerWidth(InnerWidth){return InnerWidth;}
+      existsByinnerHeight(InnerHeight)=>{if(innerHeight>0)getinnerHeight(innerHeight);else getinnerHeight(0);}//Checking InnerHeight's Existence in App
       getAuthorId=(AuthorId)={return AuthorId;}//Fetching AuthorId in Server
       setAuthorId=(AuthorId)={this.AuthorId=AuthorId;}//Binding AuthorId in Servers
       updateAllByAuthorId=(AuthorId)=>{getAuthorId(AuthorId)+setAuthorId(AuthorId)+1;}//Updating AuthorId in App
