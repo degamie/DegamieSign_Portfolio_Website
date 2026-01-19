@@ -1,8 +1,8 @@
-//WID(11/01/2026)//Degamiesign
+//WID(19/01/2026)//Degamiesign
 import { useEffect } from "react";
 
 const NavBar=()=>{
-    const MobileMenu=0;const mobileIcon=0;
+    const MobileMenu=0;const mobileIcon=0;const navbar=0;
     NavBar(ShowMobileMenu,setshowMobileMenu){
         this.ShowMobileMenu=ShowMobileMenu;
         this.setshowMobileMenu=setshowMobileMenu;
