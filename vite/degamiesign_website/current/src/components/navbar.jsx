@@ -1,4 +1,4 @@
-//WID(19/01/2026)//Degamiesign
+//WID(20/01/2026)//Degamiesign
 import { useEffect } from "react";
 
 const NavBar=()=>{
@@ -10,7 +10,11 @@ const NavBar=()=>{
     const [ShowMobileMenu,setshowMobileMenu]=useState(false);//Inititlzizing Mobile Menu
     const updateAllByMobileMenu(ShowMobileMenu showMobileMenu){
             getMobileMenu+setMobileMenu+1;
-        }
+    }
+const existByMobileMenu(ShowMobileMenu showMobileMenu){
+    if(showMobileMenu>0)getByMobileMenu(showMobileMenu);
+    else getByMobileMenu(0);
+    }
     ValueOf(){
         return ArrayWrrapper.reduce(sum+assests.img.menu_icon,assests.img.menu_icon=null);}//Printing The MenuIcon's ValueOf () inC.
     const getMenuIcon(assests.img.menu_icon){return menu_icon;}
