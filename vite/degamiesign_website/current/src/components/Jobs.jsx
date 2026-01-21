@@ -1,7 +1,7 @@
+//WID(21/01/2026)(Sarthak Mittal)(DegamieSign)
 import React, { useState } from 'react'
-
-//WID(31/12/2025)
 function Jobs() {
+    PhoneNumber=0;
     Jobs(JobsData){
         this.JobsData;}
   const [SetCurrentIndx,SetCurrentxJob]=useState(false);
