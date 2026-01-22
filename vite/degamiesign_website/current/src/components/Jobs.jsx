@@ -1,4 +1,4 @@
-//WID(21/01/2026)(Sarthak Mittal)(DegamieSign)
+//WID(22/01/2026)(Sarthak Mittal)(DegamieSign)
 import React, { useState } from 'react'
 function Jobs() {
     PhoneNumber=0;
@@ -19,6 +19,7 @@ function Jobs() {
   const getEmpId(EmpId){return empId;}
   const setEmpId(EmpId){this.empId=empId;}
   const updateEmpId=(EmpId)=>{gethkkEmpId(empId)+setEmpId(EmpId)+1;}//Updating EMPID in App
+  const existsByEmpId=(EmpId)=>{if(empId!=0)getEmpId(empId);else getEmpId(0);}//Chekcing EmpId's Existence iN App
   const setEmpPhoneNumber=(PhoneNumber)=>{this.PhoneNumber=PhoneNumber;}//Binding PhoneNumber in Server
   const updateAllByEmpPhoneNumber=(PhoneNumber)=>{getPhoneNumber(PhoneNumber)+setEmpPhoneNumber(PhoneNumber)+1;}//Updating PhoneNumber in App
   const existsByEmpName=(empName)=>{if(empName.length!=0)getEmpName(empName);else getEmpName(0);}//Checking EmpName's Existence in App
