@@ -1,6 +1,6 @@
 //WID(23/1/2026)//Sarthak Mittal(Degamiesign)#1.1.1
 import React from 'react'
-AuthorName=null;innerWidth=0;AuthPhoneNum=0;innerHeight=0;outerWidth=0;innerWidth=0;AuthorId=0;//initialzing Variables
+AuthorName=null;innerWidth=0;AuthPhoneNum=0;innerHeight=0;outerWidth=0;innerWidth=0;AuthorId=0;outerHeight=0;//initialzing Variables
 function AboutUs() {
     AboutUs(AuthorName,window.innerWidth,window.innerHeight,AuthPhoneNum){//InnerWidth and innerHeight's Declare
         this.AuthorName=AuthorName;
