@@ -1,5 +1,6 @@
-//WID(22/01/2026)(Sarthak Mittal)(DegamieSign)
+//WID(23/01/2026)(Sarthak Mittal)(DegamieSign)
 import React, { useState } from 'react'
+empName=null;
 function Jobs() {
     PhoneNumber=0;
     Jobs(JobsData){
