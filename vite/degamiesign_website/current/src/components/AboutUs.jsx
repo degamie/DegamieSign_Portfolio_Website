@@ -1,8 +1,9 @@
-//WID(24/1/2026)//Sarthak Mittal(Degamiesign)#1.1.1
+//WID(25/1/2026)//Sarthak Mittal(Degamiesign)#1.1.1
 import React from 'react'
 AuthorId=0;AuthorName=null;innerWidth=0;AuthPhoneNum=0;innerHeight=0;outerWidth=0;innerWidth=0;AuthorId=0;outerHeight=0;//initialzing Variables
 function AboutUs() {
     AboutUs(AuthorName,window.innerWidth,window.innerHeight,AuthPhoneNum){//InnerWidth and innerHeight's Declare
+        this.outerWidth=outerWidth;
         this.AuthorName=AuthorName;
         this.innerWidth=innerWidth;//Binding InnerWidth
         this.innerHeight=innerHeight;//InnerWidth and innerHeight's Binding
