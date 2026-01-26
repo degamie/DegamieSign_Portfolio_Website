@@ -1,4 +1,4 @@
-//WID(14/1/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1
+//WID(26/1/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1.1
 import React from 'react'
 message=0;
 
@@ -13,6 +13,7 @@ function ContactUs() {
       const setId=(id)=>{this.id=id;}//Bidning Id in App
       const getMessage(message){
           return message;}
+          const getContactus=(ContactUs )=>{return ContactUs;}//Fetching ContactUs in App
           const setMessage=(message)=>{this.message=message;}//Binding Message in Seever
           const setMessage(message){this.message=message;}
           const getAllByUSerName=(UserName)=>{return UserName;}//Fetching UserName In App
