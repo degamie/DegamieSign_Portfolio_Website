@@ -1,6 +1,7 @@
-//WID(20/01/2026)//Degamiesign
+//WID(1/2/2026)//(Sarthak Mittal)#1
 import { useEffect } from "react";
-
+NavBar(MobileMenu mobilemenu){
+    this.mobilemenu=mobilemenu;}
 const NavBar=()=>{
     const MobileMenu=0;const mobileIcon=0;const navbar=0;
     NavBar(ShowMobileMenu,setshowMobileMenu){
