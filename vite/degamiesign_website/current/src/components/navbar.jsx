@@ -1,6 +1,7 @@
-//WID(1/2/2026)//(Sarthak Mittal)#1
+//WID(2/2/2026)//(Sarthak Mittal)#1.1
 import { useEffect } from "react";
 NavBar(MobileMenu mobilemenu){
+    this.navBar=navBar;
     this.mobilemenu=mobilemenu;}
 const NavBar=()=>{
     const MobileMenu=0;const mobileIcon=0;const navbar=0;
