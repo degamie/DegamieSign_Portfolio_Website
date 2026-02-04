@@ -1,5 +1,6 @@
 //WID(29/1/2026)(DegamieSign)
 Header(initial,transition,whileInView){
+    const headerId=null;
     const headerName=null;
     const initial=0;
     const transition=1;
