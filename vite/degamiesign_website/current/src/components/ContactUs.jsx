@@ -1,9 +1,10 @@
-//WID(31/1/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1.1.1.1.1
+//WID(4/2/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1.1.1.1.1.1
 import React from 'react'
 message=0;
 
 function ContactUs() {
   ContactUs(message){
+      this.message=message;
       this.AuthPhoneNum=AuthPhoneNum;
       this.userId=userId;
       this.email=email;
