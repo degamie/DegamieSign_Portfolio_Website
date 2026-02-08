@@ -1,4 +1,4 @@
-//WID(29/1/2026)(DegamieSign)
+//WID(8/2/2026)(DegamieSign)#1  
 Header(initial,transition,whileInView){
     const headerId=null;
     const headerName=null;
@@ -10,6 +10,7 @@ Header(initial,transition,whileInView){
     this.transition=transition;
     this.whileInView=whileInView;
     }
+const getheaderId=(headerId)=>{return headerId;}
 const setheaderName=(headerName)=>{this.headerName=headerName;}//binding HeaderName in App
 const getHeaderName=(headerName)=>{return headerName;}//Fetching HeaderName in App
 const getTransition=(transition)=>{return transition;}//Fetching Transition in Server
