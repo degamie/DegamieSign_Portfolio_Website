@@ -1,8 +1,7 @@
-//WID(12/2/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1.1.1.1.1.1.1.1
+//WID(13/2/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1.1.1.1.1.1.1,1
 import React from 'react'
-message=0;
+message=0;PhoneNumber=0;
 
-userId=null;
 function ContactUs() {
   ContactUs(message){
       this.PhoneNumber=PhoneNumber;
@@ -18,7 +17,6 @@ function ContactUs() {
   return (
       const getId=(id)=>{return id;}//Fetching Id In App
       const setId=(id)=>{this.id=id;}//Bidning Id in App
-      const getUserName=(username)=>{return userName;}//Fetching UserName in App
       const getMessage(message){
           return message;}
           setContactUs=(ContactUs)=>{this.ContactUs=ContactUs;}//binding ContactUs in App
