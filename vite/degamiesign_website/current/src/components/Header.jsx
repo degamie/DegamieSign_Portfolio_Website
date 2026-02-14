@@ -1,4 +1,5 @@
-//WID(13/2/2026)(DegamieSign)#1
+//WID(14/2/2026)(DegamieSign)#1.1
+Header header=new Header();
 Header(initial,transition,whileInView){
     const headerId=null;
     const headerName=null;
