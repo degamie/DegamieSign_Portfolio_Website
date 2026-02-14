@@ -1,6 +1,7 @@
-//WID(06/02/2026)//Sarthak Mittal(Degamiesign)#1.1.1.1.1.1.1
+//WID(14/02/2026)//Sarthak Mittal(Degamiesign)#1.1.1.1.1.1.1
 import React from 'react'
 AuthorDesignation=null;
+getAuthorDesignation(AuthorDesignation){return AuthorDesignation;}
 AuthorId=0;AuthorName=null;innerWidth=0;AuthPhoneNum=0;innerHeight=0;outerWidth=0;innerWidth=0;AuthorId=0;outerHeight=0;AuthorEmail=null;//initialzing Variables
 function AboutUs() {
     AboutUs(AuthorName,window.innerWidth,window.innerHeight,AuthPhoneNum){//InnerWidth and innerHeight's Declare
