@@ -1,5 +1,6 @@
-//WID(5/02/2026)//Sarthak Mittal(Degamiesign)#1.1.1.1.1.1.1.1
+//WID(16/02/2026)//Sarthak Mittal(Degamiesign)#1.1.1.1.1.1.1.1.1
 import React from 'react'
+AboutUs aboutus=new AboutUs();
 AuthorDesignation=null;
 setAuthorDesignation(AuthorDesignation authorDesignation){this.authorDesignation=authorDesignation;}
 getAuthorDesignation(AuthorDesignation){return AuthorDesignation;}
