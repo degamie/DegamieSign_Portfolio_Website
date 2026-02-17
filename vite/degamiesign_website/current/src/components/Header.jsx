@@ -1,5 +1,6 @@
-//WID(16/2/2026)(DegamieSign)#1.1
+//WID(17/2/2026)(DegamieSign)#1.1
 Header header=new Header();
+setHeader=(header)=>{this.header=header;}//binding Header in App
 getHeader=(header)=>{return header;}//Fetching Header in APp
 Header(initial,transition,whileInView){
     const headerId=null;
