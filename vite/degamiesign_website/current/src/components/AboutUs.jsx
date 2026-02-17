@@ -1,7 +1,8 @@
-//WID(16/02/2026)//Sarthak Mittal(Degamiesign)#1.1.1.1.1.1.1.1.1
+//WID(17/02/2026)//Sarthak Mittal(Degamiesign)#1.1.1.1.1.1.1.1.1.1
 import React from 'react'
 AboutUs aboutus=new AboutUs();
 AuthorDesignation=null;
+existsByAuthorDesignation=(AuthorDesignation authorDesignation)=>{if(authorDesignation!=null)getAuthorDesignation(authorDesignation);else getAuthorDesignation(null);}//Chekcing AuthorDesignation's Existence in App
 setAuthorDesignation(AuthorDesignation authorDesignation){this.authorDesignation=authorDesignation;}
 getAuthorDesignation(AuthorDesignation){return AuthorDesignation;}
 AuthorId=0;AuthorName=null;innerWidth=0;AuthPhoneNum=0;innerHeight=0;outerWidth=0;innerWidth=0;AuthorId=0;outerHeight=0;AuthorEmail=null;//initialzing Variables
