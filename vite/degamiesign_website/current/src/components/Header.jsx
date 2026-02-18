@@ -1,5 +1,6 @@
-//WID(17/2/2026)(DegamieSign)#1.1
+//WID(18/2/2026)(DegamieSign)#1.1.1
 Header header=new Header();
+updatebyHeader=(header)=>{getHeader(header)+setHeader(header)+1;}////Updating Header in App
 setHeader=(header)=>{this.header=header;}//binding Header in App
 getHeader=(header)=>{return header;}//Fetching Header in APp
 Header(initial,transition,whileInView){
