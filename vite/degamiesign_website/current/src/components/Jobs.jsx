@@ -1,10 +1,11 @@
-//WID(14/02/2026)(Sarthak Mittal)(DegamieSign)#1
+//WID(18/02/2026)(Sarthak Mittal)(DegamieSign)#1.1
 import React, { useState } from 'react'
 empName=null;empId=0;empName=null;
 function Jobs() {
     PhoneNumber=0;
     Jobs(JobsData){
         this.JobsData;}
+        const getPhoneNumber=(PhoneNumber)=>{return PhoneNumber;}//Fetching PhoneNumber in App
   const [SetCurrentIndx,SetCurrentxJob]=useState(false);
   const getJobsDate=(JobsDate)=>{return JobsDate;}//Printing JobsDate in Server
   const setjobsIdData(JobsData){this.JobsId=JobsId;}
