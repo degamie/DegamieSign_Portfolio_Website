@@ -1,4 +1,4 @@
-//WID(18/02/2026)(Sarthak Mittal)(DegamieSign)#1.1
+//WID(20/02/2026)(Sarthak Mittal)(DegamieSign)#1.1.1
 import React, { useState } from 'react'
 empName=null;empId=0;empName=null;
 function Jobs() {
@@ -15,6 +15,7 @@ function Jobs() {
   const updateJobsData(JobsData){
       getjobsData(JobsData)+setjobsData(JobsData);
       }
+  cosnt updateAllByEMpName=(empName)=>{getEmpName(empName)+setEmpName(empName)+1;}//Updating EmpName in App
   const getEmpName=(EmpName)=>{return empName;}//Fetching EmpName
   const setEmName=(EmpName)=>{this.empName=empName;}//Binding EmpName
   const updateAllByEMpName=(EmpName)=>{getEmpName(empName)+setEmName(empName)+1;}//updatind EmpName in Server
