@@ -1,6 +1,7 @@
 //WID(19/02/2026)//Sarthak Mittal(Degamiesign)#1.1.1.1.1.1.1.1.1.1.1
 import React from 'react'
 AboutUs aboutus=new AboutUs();
+setAboutUs=(aboutUs)=>{this.aboutUs=aboutUs;}
 getAboutUs=(aboutus)=>{return aboutus;}//Fetching AboutUs in App
 AuthorDesignation=null;
 existsByAuthorDesignation=(AuthorDesignation authorDesignation)=>{if(authorDesignation!=null)getAuthorDesignation(authorDesignation);else getAuthorDesignation(null);}//Chekcing AuthorDesignation's Existence in App
@@ -113,5 +114,6 @@ getOuterWidth(outerWidth.length){
     </div>
   )
 }
+
 
 export default AboutUs
