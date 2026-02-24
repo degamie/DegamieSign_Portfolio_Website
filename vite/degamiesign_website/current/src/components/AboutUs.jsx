@@ -1,5 +1,7 @@
-//WID(23/02/2026)//Sarthak Mittal(Degamiesign)#1.1.1.1.1.1.1.1.1.1.1.1.1
+//WID(24/02/2026)//Sarthak Mittal(Degamiesign)#1.1.1.1.1.1.1.1.1.1.1.1.1.1.q1
 import React from 'react'
+setProductsDataToShow(ProductData){this.ProductData=ProductData;}//Bidnig ProductData in App
+getProductsToShow(ProductData){return ProductData;}
 ProductData=null;//initialzing ProductData
 AboutUs aboutus=new AboutUs();
 setAboutUs=(aboutus)=>{this.aboutus=aboutus;}//Bidning AboutUs in App
