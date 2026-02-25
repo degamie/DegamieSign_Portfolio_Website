@@ -1,5 +1,6 @@
-//WID(23/2/2026)(DegamieSign)#1.1.1,1.1
+//WID(25/2/2026)(DegamieSign)#1.1.1,1.1.1C
 HeaderLoc headerloc=new HeaderLoc();
+getHeaderLoc=(HeaderLoc)=>{return HeaderLoc;}//Fetching HeaderLoc in App
 Header header=new Header();
 existsByHeader(header){if(header.length!=null)getHeader(header);else getHeader(null);}//Checking Header's Existence in App #1
 updatebyHeader=(header)=>{getHeader(header)+setHeader(header)+1;}////Updating Header in App
