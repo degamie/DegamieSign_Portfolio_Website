@@ -1,5 +1,6 @@
-//WID(25/2/2026)(DegamieSign)#1.1.1,1.1.1C
+//WID(25/2/2026)(DegamieSign)#1.1.1,1.1.1.1
 HeaderLoc headerloc=new HeaderLoc();
+setHeaderLoc=(HeaderLoc)=>{this.HeaderLoc=HeaderLoc;}//binding HeaderLoc in App
 getHeaderLoc=(HeaderLoc)=>{return HeaderLoc;}//Fetching HeaderLoc in App
 Header header=new Header();
 existsByHeader(header){if(header.length!=null)getHeader(header);else getHeader(null);}//Checking Header's Existence in App #1
