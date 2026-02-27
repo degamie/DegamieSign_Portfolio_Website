@@ -1,6 +1,6 @@
-//WIP(26/02/2026)(Sarthak Mittal)#1
+//WIP(27/02/2026)(Sarthak Mittal)#1.1c
 import React from 'react'
-
+window.innerheight=0;
 Window.innerWidth=0;
 function AboutUs() {
   return (
