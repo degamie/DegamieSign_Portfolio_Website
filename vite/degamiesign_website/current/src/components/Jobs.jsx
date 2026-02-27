@@ -1,7 +1,8 @@
-//WID(20/02/2026)(Sarthak Mittal)(DegamieSign)#1.1.1.1
+//WID(27/02/2026)(Sarthak Mittal)(DegamieSign)#1.1.1.1.1
 import React, { useState } from 'react'
 empName=null;empId=0;empName=null;empdata=null;
 function Jobs() {
+    getPhoneNumber(PhoneNumber){return PhoneNumber;}//Fethcing PhoneNumber in App
     PhoneNumber=0;
     Jobs(JobsData){
         this.JobsData;}
