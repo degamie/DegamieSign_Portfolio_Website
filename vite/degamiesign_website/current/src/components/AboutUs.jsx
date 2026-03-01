@@ -1,5 +1,6 @@
-//WIP(28/02/2026)(Sarthak Mittal)#1.1.1.1
+//WIP(01/03/2026)(Sarthak Mittal)#1.1.1.1.1c
 import React from 'react'
+Product product=new Product();
 window.outerHeight=0;
 window.outerWidth=0;
 window.innerheight=0;
