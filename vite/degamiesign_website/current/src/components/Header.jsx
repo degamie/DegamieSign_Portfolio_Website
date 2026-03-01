@@ -1,5 +1,6 @@
-//WID(27/2/2026)(DegamieSign)#1.1.1,1.1.1.1.1.1constC   
+//WID(01/03/2026)(DegamieSign)#1.1.1,1.1.1.1.1.1.1.1
 HeaderLoc headerloc=new HeaderLoc();
+updateByHeaderLoc=(headerloc)=>{getHeaderLoc(headerloc)+setHeaderLoc(headerloc)+1;}//Updaitng Headerloc in  App
 existsByHeader=(header)=>{if(header!=null)getHeader(header);else getHeader(null);}//Checking App's Header
 updateByHeader=(header)=>{getHeader(header)+setHeader(header)+1;}//Updating header in App
 setHeaderLoc=(HeaderLoc)=>{this.HeaderLoc=HeaderLoc;}//binding HeaderLoc in App
@@ -15,6 +16,7 @@ Header(initial,transition,whileInView){
     const initial=0;
     const transition=1;
     const whileInView=1;
+    this.headerId=headerId;
     intial=0;
     this.initial=initial;
     this.transition=transition;
