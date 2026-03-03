@@ -1,6 +1,7 @@
-//WIP(02/03/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC
+//WIP(03/03/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1
 import React from 'react'
 Product product=new Product();
+updateByProduct=(product)=>{getProduct(product)+setProduct(product)+1;}//Updating Product in App
 setProduct(product){this.product=product;}//binding Product
 getProduct(product){return product;}//Fethcing Product in App
 window.outerHeight=0;
