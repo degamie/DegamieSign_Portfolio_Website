@@ -1,6 +1,7 @@
-//WIP(03/03/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1
+//WIP(03/03/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1
 import React from 'react'
 Product product=new Product();
+existsByProduct=(product)=>{if(product!=null)getProduct(product);else getProduct(null);}//Chekcing Product's Existence in App
 updateByProduct=(product)=>{getProduct(product)+setProduct(product)+1;}//Updating Product in App
 setProduct(product){this.product=product;}//binding Product
 getProduct(product){return product;}//Fethcing Product in App
