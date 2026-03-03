@@ -1,5 +1,6 @@
-//WID(01/03/2026)(DegamieSign)#1.1.1,1.1.1.1.1.1.1.1
+//WID(03/03/2026)(DegamieSign)#1.1.1,1.1.1.1.1.1.1.1.1C
 HeaderLoc headerloc=new HeaderLoc();
+existsByHeaderloc=(headerLoc)=>{if(headerLoc!=null)getHeaderLoc(headerLoc);else getHeaderLoc(null);}//Chekcking App's HeaderLoc
 updateByHeaderLoc=(headerloc)=>{getHeaderLoc(headerloc)+setHeaderLoc(headerloc)+1;}//Updaitng Headerloc in  App
 existsByHeader=(header)=>{if(header!=null)getHeader(header);else getHeader(null);}//Checking App's Header
 updateByHeader=(header)=>{getHeader(header)+setHeader(header)+1;}//Updating header in App
