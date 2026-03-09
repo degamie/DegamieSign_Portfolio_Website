@@ -1,5 +1,6 @@
-//WID(22/2/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1.1.1.1.1.1.1,1.1.1
+//WID(09/03/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1.1.1.1.1.1.1,1.1.1.1.1
 import React from 'react'
+data=null;
 message=0;PhoneNumber=0;userName=null;UserId=null;email=null;password=null;
 
 function ContactUs() {
@@ -17,6 +18,7 @@ function ContactUs() {
   return (
       const getId=(id)=>{return id;}//Fetching Id In App
       const setId=(id)=>{this.id=id;}//Bidning Id in App
+      existsByid=(id)=>{if(id!=null)getId(id);else getId(null);}
       const updateById=(id)=>{getId(id)+setId(id)+1;}//Updating Id In App
       const getMessage(message){
           return message;}
