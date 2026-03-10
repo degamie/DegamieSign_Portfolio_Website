@@ -1,8 +1,8 @@
-//WID(09/03/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1.1.1.1.1.1.1,1.1.1.1.1
+//WID(10/03/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1.1.1.1.1.1.1,1.1.1.1.1.1
 import React from 'react'
 data=null;
 message=0;PhoneNumber=0;userName=null;UserId=null;email=null;password=null;
-
+getPhoneNum=(PhoneNumber)=>{return PhoneNumber;}//fetching Ph Num in App
 function ContactUs() {
   ContactUs(message){
       this.PhoneNumber=PhoneNumber;
