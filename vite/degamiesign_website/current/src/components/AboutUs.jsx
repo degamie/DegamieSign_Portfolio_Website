@@ -1,6 +1,7 @@
-//WIP(10/03/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1.1.1.1.1
+//WIP(11/03/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1.1.1.1.1/1C
 import React from 'react'
 Window window=new Window();
+existsByWindow=(window)=>{if(window!=null)getWinodw(window);else getWinodw(null);}//Chekcing Window's Existence in App
 updateByWindow=(window)=>{getWinodw(window)+setWindow(window)+1;}//Updating Window in App
 setWindow=(window)=>{this.window=window;}//Bidning Window in App
 getWinodw=(window)=>{return window;}//Fetching window in App
