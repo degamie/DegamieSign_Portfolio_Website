@@ -1,9 +1,11 @@
-//WID(11/03/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1.1.1.1.1.1.1,1.1.1.1.1.1.1.1
+//WID(12/03/2026)//Sarthak mittal a.k.a(Degamiesign)#11.1.1.1.1.1.1.1.1,1.1.1.1.1.1.1.1.1/1
 import React from 'react'
+existsByData=(data)=>{if(data!==null)getData(data);else getData(null);}//Checking Data's Existence In App
+updateByData=(data)=>{getData(data)+setData(data)+1;}//Updating Data in App
 setData=(data)=>{this.data=data;}
 data=null;getData=(data)=>{return data;}
 message=0;PhoneNumber=0;userName=null;UserId=null;email=null;password=null;
-getPhoneNum=(PhoneNumber)=>{return PhoneNumber;}//fetching Ph Num in App
+getPhoneNum=(PhoneNumber)=>{return PhonseNumber;}//fetching Ph Num in App
 function ContactUs() {
   ContactUs(message){
       this.PhoneNumber=PhoneNumber;
