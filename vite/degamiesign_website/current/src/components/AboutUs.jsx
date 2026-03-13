@@ -1,5 +1,6 @@
-//WIP(11/03/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1.1.1.1.1/1C
+//WIP(13/03/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1.1.1.1.1/1C.1
 import React from 'react'
+App app=new App();
 Window window=new Window();
 ProductsData productData=new ProductsData();
 existsByWindow=(window)=>{if(window!=null)getWinodw(window);else getWinodw(null);}//Chekcing Window's Existence in App
