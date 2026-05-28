@@ -12,8 +12,11 @@ const assets = "https://via.placeholder.com/300";
 function AboutUs() {
   const [cardsToShow, setCardsToShow] = useState(1);
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
+    useEffect(() => {
+          // 1. Setup Audio Engine
+          const audio = new Audio(audioTrackUrl);
+          const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+          const analyzer=audioctx.createAnalyzer();
     const updateCardsToShow = () => {
       if (window.innerWidth >= 1024) {
         setCardsToShow(ProductsData.length);
