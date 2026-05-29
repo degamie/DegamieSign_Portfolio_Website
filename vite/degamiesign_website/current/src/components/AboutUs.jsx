@@ -1,4 +1,4 @@
-// WIP(28/05/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1.1.1.1.1/1C.1.1
+// WIP(29/05/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1.1.1.1.1/1C.1.1.1
 import React, { useState, useEffect } from "react";
 import herouiNative from "https://esm.sh/heroui-native@1.0.3";
 
@@ -14,6 +14,7 @@ function AboutUs() {
   const [currentIndex, setCurrentIndex] = useState(0);
     useEffect(() => {
           // 1. Setup Audio Engine
+          setanalyzer(analyzer){this.analyzer=analyzer;}//Binding Analyzer in App
           const audio = new Audio(audioTrackUrl);
           const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
           const analyzer=audioctx.createAnalyzer();
