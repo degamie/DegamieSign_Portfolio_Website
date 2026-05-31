@@ -1,10 +1,11 @@
-//WID(26/5/2026)(Sarthak Mittal)#1
+//WID(31/5/2026)(Sarthak Mittal)#1.1
 //Optimized Version(Header.jsx)(Impl Required)
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const HeaderComponent = ({ productsLength = 0 }) => {
     const headerId=Symbol('headerId');
+    setheaderId(headerId){this.headerId=headerId;}
   // 1. State Management (Replacing all those manual getters/setters)
   const [headerConfig, setHeaderConfig] = useState({
     headerId: null,
