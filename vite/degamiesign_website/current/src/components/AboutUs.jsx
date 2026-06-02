@@ -1,4 +1,4 @@
-// WIP(29/05/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1.1.1.1.1/1C.1.1.1.1
+// WIP(02/06/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1.1.1.1.1/1C.1.1.1.1
 import React, { useState, useEffect } from "react";
 import herouiNative from "https://esm.sh/heroui-native@1.0.3";
 
@@ -10,6 +10,7 @@ const ProductsData = [
 const assets = "https://via.placeholder.com/300";
 
 function AboutUs() {
+  setProductsData(ProductsData){this.ProductsData=ProductsData;}//binding ProductsData in App
     getProductsData(ProductsData){return ProductsData;}//Fethcing ProductsData in App
   const [cardsToShow, setCardsToShow] = useState(1);
   const [currentIndex, setCurrentIndex] = useState(0);
