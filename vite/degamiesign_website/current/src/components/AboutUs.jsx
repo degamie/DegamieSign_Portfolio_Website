@@ -1,4 +1,4 @@
-// WIP(02/06/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1.1.1.1.1/1C.1.1.1.1
+// WIP(02/06/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1.1.1.1.1/1C.1.1.1.1.1
 import React, { useState, useEffect } from "react";
 import herouiNative from "https://esm.sh/heroui-native@1.0.3";
 
@@ -8,6 +8,7 @@ const ProductsData = [
   { img: "https://via.placeholder.com/150", title: "Product 2" }
 ];
 const assets = "https://via.placeholder.com/300";
+setassets(assets){this.assets=assets;}//binding Assets in App
 
 function AboutUs() {
   setProductsData(ProductsData){this.ProductsData=ProductsData;}//binding ProductsData in App
