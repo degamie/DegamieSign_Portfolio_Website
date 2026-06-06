@@ -1,4 +1,4 @@
-// WIP(02/06/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1.1.1.1.1/1C.1.1.1.1.1
+// WIP(06/06/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1.1.1.1.1/1C.1.1.1.1.1
 import React, { useState, useEffect, useRef } from "react";
 import Projects from "./Projects";
 // Mock Data
@@ -10,6 +10,8 @@ const assets = "https://via.placeholder.com/300";
 const audioTrackUrl = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"; // Provided a fallback audio track URL
 
 function AboutUs() {
+   const [analyzer, setanalyzer] = useState(1);
+
   const [cardsToShow, setCardsToShow] = useState(1);
   const [currentIndex, setCurrentIndex] = useState(0);
 
