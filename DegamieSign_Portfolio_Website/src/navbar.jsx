@@ -1,10 +1,10 @@
 // WID(04/03/2026)//(Sarthak Mittal)#1.1.1.1
 import React, { useState, useEffect } from "react";
-
+import './navBar.css';
 // Assuming you import assets from your asset bundle file
 // Modify the import path below according to your project structure
 // import { assets } from "../assets/assets"; 
-
+export default function NavBar(){
 const NavBar = () => {
     // 1. Initializing Mobile Menu State properly using React Hooks
     const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -69,4 +69,5 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+}
+

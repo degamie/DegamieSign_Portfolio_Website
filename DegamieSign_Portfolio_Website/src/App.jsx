@@ -1,7 +1,14 @@
-// WIP(06/06/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1.1.1.1.1/1C.1.1.1.1.1
+// WIP(07/06/2026)(Sarthak Mittal)(Navbar's Addon in App)
 import React, { useState, useEffect, useRef } from "react";
+import NavBar from "./navbar";
 import Projects from "./Projects";
-// Mock Data
+function App(){
+  return(
+    <>
+    <NavBar/>
+    </>
+  )
+}
 const ProductsData = [
   { img: "https://via.placeholder.com/150", title: "Product 1" },
   { img: "https://via.placeholder.com/150", title: "Product 2" }
