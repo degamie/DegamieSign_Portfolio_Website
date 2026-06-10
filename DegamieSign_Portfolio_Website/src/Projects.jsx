@@ -24,6 +24,7 @@ function Projects() {
 
       )
 }
+export default Projects;
 {/* 
         
       <h2>
@@ -40,4 +41,4 @@ function Projects() {
     // </div> */}
 
 
-export default Projects
+z

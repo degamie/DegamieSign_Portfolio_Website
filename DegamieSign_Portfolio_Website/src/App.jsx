@@ -3,16 +3,26 @@ import React, { useState, useEffect, useRef } from "react";
 import NavBar from "./navbar";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import  AboutUs from "./Contact"; 
 function App(){
   return(
     <>
-    <Contact></Contact>
+    <NavBar/>
+    <main style={{ marginTop: '80px' }}>{/* Keeps content from sliding under fixed navbar */}
+      <AboutUs></AboutUs>
+       <Contact></Contact>
     <NavBar/>
     <Projects/>
-    </>
+    </main>
+   <footer style={{ textAlign: 'center', padding: '2rem', color: '#64748b', fontSize: '0.9rem' }}>
+        © {new Date().getFullYear()} Your Name. Built with React + Vite.</footer> 
+           </>
   )
 }
-const ProductsData = [
+      {/* {/* </footer> */}
+ 
+export default App; 
+{/* const ProductsData = [
   { img: "https://via.placeholder.com/150", title: "Product 1" },
   { img: "https://via.placeholder.com/150", title: "Product 2" }
 ];
@@ -79,9 +89,9 @@ function AboutUs() {
   }, []);
 
   return (
-    <div className="hero-container">
+    <div className="hero-container"> */}
       {/* Scope CSS bindings cleanly inside component */}
-      <style>{`
+      {/* <style>{`
         .hero {
           position: relative;
           min-height: 100vh;
@@ -102,7 +112,7 @@ function AboutUs() {
       `}</style>
 
       {/* Main Bound Hero Section */}
-      <h2>DegamieSign(GamingCrusher) Portfolio: </h2>
+      {/* <h2>DegamieSign(GamingCrusher) Portfolio: </h2>
       <h2>Presnting GameDevelopment Scalable Applications</h2>
       
         <h2 className="text-2xl font-bold text-center">
@@ -132,7 +142,7 @@ function AboutUs() {
         <p className="text-5xl font-medium text-blue-800 mt-4">Believe In!</p>
 
         {/* Slider Container */}
-        <div className="slider-wrapper">
+        {/* <div className="slider-wrapper">
           <div
             className="flex gap-8 transition-transform duration-500 ease-in-out"
             style={{
@@ -153,10 +163,10 @@ function AboutUs() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Mobile App Dev Section */}
-        <div className="mt-12 text-center">
+        {/* <div className="mt-12 text-center">
           <h2 className="text-xl font-bold">Mobile App Dev</h2>
           <div className="mt-2 text-gray-600">Design, Build and Develop Most Powerful App Dev Integrally</div>
         </div>
@@ -169,8 +179,5 @@ function AboutUs() {
           <img src={assets} alt="Company assets" className="w-full max-w-md rounded shadow-md" />
         </div>
       </div>
-    </div>
-  );
-}
+    </div> */}
 
-export default AboutUs;

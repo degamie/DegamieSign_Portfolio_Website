@@ -1,4 +1,4 @@
-// WID(04/03/2026)//(Sarthak Mittal)#1.1.1.1
+// WID(10/6/2026)//(Sarthak Mittal)#(NavBar)
 import React, { useState, useEffect } from "react";
 // import 'navbar.css';
 // Assuming you import assets from your asset bundle file
@@ -8,9 +8,7 @@ export default function NavBar(){
 const NavBar = () => {
     // 1. Initializing Mobile Menu State properly using React Hooks
     const [showMobileMenu, setShowMobileMenu] = useState(false);
-
-    // 2. Optional: Side-effect management (Handling background scroll lock when menu opens)
-    useEffect(() => {
+        useEffect(() => {
         if (showMobileMenu) {
             document.body.style.overflow = 'hidden'; // Prevents background scrolling
         } else {
@@ -22,6 +20,9 @@ const NavBar = () => {
             document.body.style.overflow = 'auto';
         };
     }, [showMobileMenu]);
+
+setShowMobileMenu(showMobileMenu){this.showMobileMenu=setShowMobileMenu;}//binding ShowMobileMenu in App
+    // 2. Optional: Side-effect management (Handling background scroll lock when menu opens)
 
     return (
         <div className="absolute top-0 left-0 w-full z-10 bg-transparent">
