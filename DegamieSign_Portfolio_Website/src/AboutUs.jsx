@@ -1,4 +1,4 @@
-// WIP(06/06/2026)(Sarthak Mittal)(DegamieSign)(AboutUS.jsx)
+// WIP(10/06/2026)(Sarthak Mittal)(DegamieSign)(AboutUS.jsx)#1
 import React, { useState, useEffect, useRef, useMemo } from "react";
 
 // Mock Data
@@ -11,6 +11,7 @@ const audioTrackUrl = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1
 
 function AboutUs() {
   const cardsMemo=useMemo(cardsToShow);
+  const setcardsMemo(cardsMemo){this.cardsMemo=cardsMemo;}//binidng CardsMemo in App
   const [cardsToShow, setCardsToShow] = useState(1);
   const [currentIndex, setCurrentIndex] = useState(0);
 
