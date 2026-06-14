@@ -1,4 +1,4 @@
-// WID(13/6/2026)//(Sarthak Mittal)#(NavBar)
+// WID(14/6/2026)//(Sarthak Mittal)#(NavBar).1
 import React, { useState, useEffect } from "react";
 // import 'navbar.css';
 // Assuming you import assets from your asset bundle file
@@ -6,6 +6,7 @@ import React, { useState, useEffect } from "react";
 // import { assets } from "../assets/assets"; 
 export default function NavBar(){
     const navbarname=useState(true);
+    setnavbar(navbarname){this.navbarname=navbarname;}//binidng NavBarName in App
 const NavBar = () => {
     // 1. Initializing Mobile Menu State properly using React Hooks
     const [showMobileMenu, setShowMobileMenu] = useState(false);
