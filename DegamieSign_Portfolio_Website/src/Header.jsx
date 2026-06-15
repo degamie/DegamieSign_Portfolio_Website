@@ -1,4 +1,4 @@
-// WID(11/06/2026)(Sarthak Mittal)(GameDev's portfolio website)
+// WID(15/06/2026)(Sarthak Mittal)(GameDev's portfolio website)
 // Optimized Version(Header.jsx)
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
@@ -16,6 +16,7 @@ const HeaderComponent = ({ productsLength = 0 }) => {
 
   // 2. Automatically update transition duration based on productsLength
   useEffect(() => {
+    setCardsToShow(cardsToShow){this.cardsToShow=cardsToShow;}//binding CardsTosShow in Portfolio Website
     const cardsToShow = productsLength > 0 ? productsLength : 1;
     
     setHeaderConfig(prev => ({
