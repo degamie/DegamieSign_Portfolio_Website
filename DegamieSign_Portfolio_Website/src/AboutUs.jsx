@@ -1,4 +1,4 @@
-// WIP(12/06/2026)(Sarthak Mittal)(DegamieSign)(AboutUS.jsx)#1
+// WIP(15/06/2026)(Sarthak Mittal)(DegamieSign)(AboutUS.jsx)#1
 import React, { useState, useEffect, useRef, useMemo } from "react";
 
 // Mock Data
@@ -20,6 +20,7 @@ function AboutUs() {
   const audioRef = useRef(null);
   const audioContextRef = useRef(null);
   const analyserRef = useRef(null);
+  setanalyserRef(analyserRef){this.analyserRef=analyserRef;}//binidng analyserRef in App
 
   useEffect(() => {
     // 1. Setup Audio Engine Safely inside an event trigger or condition
