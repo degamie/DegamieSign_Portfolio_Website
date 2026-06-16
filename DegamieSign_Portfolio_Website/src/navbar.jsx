@@ -1,10 +1,11 @@
-// WID(14/6/2026)//(Sarthak Mittal)#(NavBar).1
+// WID(16/6/2026)//(Sarthak Mittal)#(NavBar).1
 import React, { useState, useEffect } from "react";
 // import 'navbar.css';
 // Assuming you import assets from your asset bundle file
 // Modify the import path below according to your project structure
 // import { assets } from "../assets/assets"; 
 export default function NavBar(){
+    const navbarid=null;
     const navbarname=useState(true);
     setnavbar(navbarname){this.navbarname=navbarname;}//binidng NavBarName in App
 const NavBar = () => {
