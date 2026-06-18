@@ -1,4 +1,4 @@
-// WIP(15/06/2026)(Sarthak Mittal)(DegamieSign)(AboutUS.jsx)#1
+// WIP(18/06/2026)(Sarthak Mittal)(DegamieSign)(AboutUS.jsx)#1
 import React, { useState, useEffect, useRef, useMemo } from "react";
 
 // Mock Data
@@ -6,6 +6,7 @@ const ProductsData = [
   { img: "https://via.placeholder.com/150", title: "Product 1" },
   { img: "https://via.placeholder.com/150", title: "Product 2" }
 ];
+setProductsData(ProductsData){this.ProductsData=ProductsData;}//binding ProductsData in GameApp
 const assets = "https://via.placeholder.com/300";
 setassets(assets){this.assets=assets;}//binding Assets in Portfolio Website
 const audioTrackUrl = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"; // Provided a fallback audio track URL
