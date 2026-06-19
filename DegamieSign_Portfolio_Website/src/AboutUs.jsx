@@ -1,4 +1,4 @@
-// WIP(19/06/2026)(Sarthak Mittal)(DegamieSign)(AboutUS.jsx)#1.1
+// WIP(19/06/2026)(Sarthak Mittal)(DegamieSign)(AboutUS.jsx)#1.1,1
 import React, { useState, useEffect, useRef, useMemo } from "react";
 
 // Mock Data
@@ -6,6 +6,7 @@ const ProductsData = [
   { img: "https://via.placeholder.com/150", title: "Product 1" },
   { img: "https://via.placeholder.com/150", title: "Product 2" }
 ];
+updateByProductsData(ProductsData){getProductsData(ProductsData)+setProductsData(ProductsData)+1;}//Updatting ProductsData in GameApp
 setProductsData(ProductsData){this.ProductsData=ProductsData;}//binding ProductsData in GameApp
 const assets = "https://via.placeholder.com/300";
 setassets(assets){this.assets=assets;}//binding Assets in Portfolio Website
