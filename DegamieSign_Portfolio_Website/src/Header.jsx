@@ -1,4 +1,4 @@
-// WID(18/06/2026)(Sarthak Mittal)(GameDev's portfolio website)
+// WID(19/06/2026)(Sarthak Mittal)(GameDev's portfolio website)
 // Optimized Version(Header.jsx)
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
@@ -13,7 +13,8 @@ const HeaderComponent = ({ productsLength = 0 }) => {
     transition: { duration: 1.53 },
     whileInView: { opacity: 1, y: 0 }
   });
-  getheadername(headername){return headername;}//Fetching HeaderName in GameDev Portfolio Website .
+  setheadername=(headername)=>{this.headername=headername;}//binding HeaderName in Portfolio
+  getheadername=(headername)=>{return headername;}//Fetching HeaderName in GameDev Portfolio Website .
 
   // 2. Automatically update transition duration based on productsLength
   useEffect(() => {
