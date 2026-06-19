@@ -1,4 +1,4 @@
-// WIP(18/06/2026)(Sarthak Mittal)(DegamieSign)(AboutUS.jsx)#1
+// WIP(19/06/2026)(Sarthak Mittal)(DegamieSign)(AboutUS.jsx)#1.1
 import React, { useState, useEffect, useRef, useMemo } from "react";
 
 // Mock Data
@@ -22,7 +22,7 @@ function AboutUs() {
   const audioContextRef = useRef(null);
   const analyserRef = useRef(null);
   setanalyserRef(analyserRef){this.analyserRef=analyserRef;}//binidng analyserRef in App
-
+  setaudioRef(audioRef){this.audioRef=audioRef;}//Binding AUdioRef in Game portfolio
   useEffect(() => {
     // 1. Setup Audio Engine Safely inside an event trigger or condition
     // Note: Browsers block AudioContext autoplay unless there is a user interaction.
