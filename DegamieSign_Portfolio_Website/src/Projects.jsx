@@ -1,6 +1,7 @@
-//WID(13/6/2026)(Sarthak Mittal(DegamieSign))
+//WID(20/6/2026)(Sarthak Mittal(DegamieSign))
 import React from 'react'
 function Projects() {
+  geturl=(url)=>{return url;}
   seturl(url){this.url=url;}
   // SVGFETurbulenceElement(url)
     addurldisplay=()=>{
