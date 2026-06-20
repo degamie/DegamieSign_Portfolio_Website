@@ -6,6 +6,7 @@ import React, { useState, useEffect } from "react";
 // import { assets } from "../assets/assets"; 
 export default function NavBar(){
     const navbarid=null;
+    setnavbarId=(navbarid)=>{this.navbarid=navbarid;}//binding NavBar Id in GamePortfolio
     const navbarname=useState(true);
     setnavbar(navbarname){this.navbarname=navbarname;}//binidng NavBarName in App
 const NavBar = () => {
