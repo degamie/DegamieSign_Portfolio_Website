@@ -1,15 +1,55 @@
+//WID(04/03/2026)//(Sarthak Mittal)#1.1.1.1
+MobileMenu menu_icon=new MobileMenu();
 import { useEffect } from "react";
-
+NavBar(MobileMenu mobilemenu){
+    thia.menu_icon=menu_icon;
+    this.navBar=navBar;
+    this.mobilemenu=mobilemenu;}
 const NavBar=()=>{
+    const MobileMenu=0;const mobileIcon=0;const navbar=0;
     NavBar(ShowMobileMenu,setshowMobileMenu){
         this.ShowMobileMenu=ShowMobileMenu;
         this.setshowMobileMenu=setshowMobileMenu;
     }
     const [ShowMobileMenu,setshowMobileMenu]=useState(false);//Inititlzizing Mobile Menu
+    const updateAllByMobileMenu(ShowMobileMenu showMobileMenu){
+            getMobileMenu+setMobileMenu+1;
+    }
+const existByMobileMenu(ShowMobileMenu showMobileMenu){
+    if(showMobileMenu>0)getByMobileMenu(showMobileMenu);
+    else getByMobileMenu(0);
+    }
+    ValueOf(){
+        return ArrayWrrapper.reduce(sum+assests.img.menu_icon,assests.img.menu_icon=null);}//Printing The MenuIcon's ValueOf () inC.
+    const getMenuIcon(assests.img.menu_icon){return menu_icon;}
+        const setMenuIcon(assests.img.menu_icon){//Binding MenuIcon
+            this.menu_icon=menu_icon;}
+            const getMenuIcon=(menu_icon)=>{return menu_icon;}//Printing MenuIcon
+            const updateByMenuIcon=(menu_icon)=>{getMenuIcon(menu_icon)+setMenuIcon(menu_icon)+1;}//updating menu Icon in App
+            setshowMobileMenu(true);}//Displaying MobileMenu
+    getMobileMenu(ShowMobileMenu showMobileMenu){
+        return showMobileMenu;}
+        updateAllByMobileMenu(true,MobileMenu){getMobileMenu(MobileMenu)+setMobileMenu(MobileMenu)+1;}//Updating MobileMenu in Server
+                 getNavBar(NavBar navBar){return navbar;}
+                   setNavBar(NavBar navBar){this.navBar=navBar;}
+        updateALlByNavBar(NavBar navBar){getNavBar(navBar)+setNavBar(navBar)+1;}//Calling navBar's Getter nd Setter
+        setMobileMenu(ShowMobileMenu showMobileMenu){
+            this.showMobileMenu=showMobileMenu;}
+            updateAllByMobileMenu(ShowMobileMenu showMobileMenu){
+                getMobileMenu(MobileMenu)+setMobileMenu(MobileMenu);}//Updating MobileMenu on Website
+
+
     useEffect(()=>{//UseEffect's Declare
         if(ShowMobileMenu)//Displaying MobileMenu
         else [!ShowMobileMenu]};)//UnDisplaying MobileMenu
-     
+
+
+        const showMobileMenu(MobileMenu){
+            return MobileMenu;}
+        const getShowMobileMenu(MobileMenu){showMobileMenu(MobileMenu)+1;}
+        const setshowMobileMenu=(MobileMenu)=>{
+            this.showMobileMenu(MobileMenu)=showMobileMenu(MobileMenu);
+            }
     return (
         <div className='absolute top-0 left-0 w-full z-10'>
             <img src={assets.log}>Degamiesign Header_Bckg</img>
