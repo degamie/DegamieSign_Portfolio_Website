@@ -1,15 +1,16 @@
-// WIP(07/06/2026)(Sarthak Mittal)(Navbar's Addon in App)
+// WIP(22/06/2026)(Sarthak Mittal)#1
 import React, { useState, useEffect, useRef } from "react";
 import NavBar from "./navbar";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import  AboutUs from "./Contact"; 
 function App(){
+  const[webappname,setwebAppName]=useref(true);
   return(
     <>
     <NavBar/>
     <main style={{ marginTop: '80px' }}>{/* Keeps content from sliding under fixed navbar */}
-      <AboutUs></AboutUs>
+      <AboutUs>Welcome to DegamieSign Wesbite!</AboutUs>
        <Contact></Contact>
     <NavBar/>
     <Projects/>
