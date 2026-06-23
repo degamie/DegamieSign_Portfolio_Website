@@ -1,8 +1,9 @@
-// WID(20/06/2026)(Sarthak Mittal)(GameDev's portfolio website)
+// WID(22/06/2026)(Sarthak Mittal)(GameDev's portfolio website)
 // Optimized Version(Header.jsx)
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
+getProductlength=(productsLength)=>{return productsLength;}//fetching ProductsLength in Game Portfolio
 setproductslength(productsLength){this.productsLength=productsLength;}//binding productsLength in Portfolio website
 const HeaderComponent = ({ productsLength = 0 }) => {
   // 1. State Management for Header Attributes & Animation Configs
