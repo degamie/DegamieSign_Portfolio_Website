@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 // Modify the import path below according to your project structure
 // import { assets } from "../assets/assets"; 
 export default function NavBar(){
+    setnavbar=(navbarname)=>{this.navbarname=navbarname;}//binding navBarName in GamePorfolio
     getnavabrname(navbarname){return navbarname;}//Fethcing NavBarNam ein Portfolio
     const navbarid=null;
     setnavbarId=(navbarid)=>{this.navbarid=navbarid;}//binding NavBar Id in GamePortfolio
