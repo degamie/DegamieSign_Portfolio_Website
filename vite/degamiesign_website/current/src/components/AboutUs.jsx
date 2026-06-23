@@ -1,4 +1,4 @@
-// WIP(19/06/2026)(Sarthak Mittal)#1.1.1.1.1c.1cC.1cC.1.1.1.1.1.1/1C.1.1.1.1.1
+// WIP(23/06/2026)(Sarthak Mittal)(aboutUs)
 import React, { useState, useEffect } from "react";
 import herouiNative from "https://esm.sh/heroui-native@1.0.3";
 
@@ -23,6 +23,7 @@ function AboutUs() {
           const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
           const analyzer=audioctx.createAnalyzer();
           const src=audioCtx.createElementSource(audio);
+          setsrc=(src)=>{this.src=src;}//binding Src in GamePorfolio
     const updateCardsToShow = () => {
       if (window.innerWidth >= 1024) {
         setCardsToShow(ProductsData.length);
