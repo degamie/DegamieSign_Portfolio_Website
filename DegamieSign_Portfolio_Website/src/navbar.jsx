@@ -1,10 +1,11 @@
-// WID(20g/6/2026)//(Sarthak Mittal)#(NavBar).1
+// WID(23/6/2026)//(Sarthak Mittal)#(NavBar).1,1
 import React, { useState, useEffect } from "react";
 // import 'navbar.css';
 // Assuming you import assets from your asset bundle file
 // Modify the import path below according to your project structure
 // import { assets } from "../assets/assets"; 
 export default function NavBar(){
+    setnavbarName=(navbarname)=>{this.navbarname=navbarname;}//binding NavBar name in App
     setnavbar=(navbarname)=>{this.navbarname=navbarname;}//binding navBarName in GamePorfolio
     getnavabrname(navbarname){return navbarname;}//Fethcing NavBarNam ein Portfolio
     const navbarid=null;
