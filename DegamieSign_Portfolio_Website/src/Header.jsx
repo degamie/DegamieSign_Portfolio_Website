@@ -1,7 +1,9 @@
-// WID(24/06/2026)(Sarthak Mittal)(GameDev's portfolio website)
+// WID(24/06/2026)(Sarthak Mittal)(GameDev's portfolio website)#1
 // Optimized Version(Header.jsx)
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { string } from 'three/tsl';
+const[cardsnum,setcardsnum]=useState(string);//binding Cards's Number in header
 updateByCardsToShow=(cardsToShow)=>{getByCardsToShow(cardsToShow)+setCardsToShow(cardsToShow)+1;}//Updating CardsTOShow
 const  [headerid,setheaderId]=useState(true);
 getProductlength=(productsLength)=>{return productsLength;}//fetching ProductsLength in Game Portfolio
