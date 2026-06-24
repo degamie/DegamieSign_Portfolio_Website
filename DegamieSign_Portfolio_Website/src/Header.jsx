@@ -1,8 +1,8 @@
-// WID(23/06/2026)(Sarthak Mittal)(GameDev's portfolio website)
+// WID(24/06/2026)(Sarthak Mittal)(GameDev's portfolio website)
 // Optimized Version(Header.jsx)
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-
+updateByCardsToShow=(cardsToShow)=>{getByCardsToShow(cardsToShow)+setCardsToShow(cardsToShow)+1;}//Updating CardsTOShow
 const  [headerid,setheaderId]=useState(true);
 getProductlength=(productsLength)=>{return productsLength;}//fetching ProductsLength in Game Portfolio
 setproductslength(productsLength){this.productsLength=productsLength;}//binding productsLength in Portfolio website
@@ -15,7 +15,7 @@ const HeaderComponent = ({ productsLength = 0 }) => {
     transition: { duration: 1.53 },
     whileInView: { opacity: 1, y: 0 }
   });
-  getCardsToShow(cardsToShow){return cardsToShow;}//Fetching CardsToShow in Portfolio Website
+  getCardsToShow=(cardsToShow)=>{return cardsToShow;}//Fetching CardsToShow in Portfolio Website
   setheadername=(headername)=>{this.headername=headername;}//binding HeaderName in Portfolio
   getheadername=(headername)=>{return headername;}//Fetching HeaderName in GameDev Portfolio Website .
 
