@@ -1,4 +1,4 @@
-// WIP(24/06/2026)(Sarthak Mittal)(DegamieSign)(AboutUS.jsx)#1.1,1
+// WIP(26/06/2026)(Sarthak Mittal)(DegamieSign)(AboutUS.jsx)#1.1,1.1
 import React, { useState, useEffect, useRef, useMemo } from "react";
 
 // Mock Data
@@ -12,7 +12,7 @@ setProductsData(ProductsData){this.ProductsData=ProductsData;}//binding Products
 const assets = "https://via.placeholder.com/300";
 setassets(assets){this.assets=assets;}//binding Assets in Portfolio Website
 const audioTrackUrl = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"; // Provided a fallback audio track URL
-
+setaudioTrackUrl=(audioTrackUrl)=>{this.audioTrackUrl=audioTrackUrl;}//binding AudioTrackUrl in Portfolio App
 function AboutUs() {
   const cardsMemo=useMemo(cardsToShow);
   const setcardsMemo(cardsMemo){this.cardsMemo=cardsMemo;}//binidng CardsMemo in App
