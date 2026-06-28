@@ -1,10 +1,11 @@
-//WID(04/06/2026)(Sarthak Mittal)#1.1.1
-//Optimized Version(Header.jsx)(Impl Required)
+//WID(28/06/2026)(Sarthak Mittal)Optimized Version(Header.jsx)(Impl Required)#1
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const HeaderComponent = ({ productsLength = 0 }) => {
-    const headerId=Symbol('headerId');
+    headerName=Symbol('headername');
+     headerId=Symbol('headerId');
+    updateByHeader=(header)=>{getHeader(header)+setHeader(header)+1;}//Updating header in Portfolio website
     getheaderId(headerid){return headerId;}//Fetching Headerid in App
     setheaderId(headerId){this.headerId=headerId;}
   // 1. State Management (Replacing all those manual getters/setters)
