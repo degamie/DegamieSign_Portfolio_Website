@@ -1,9 +1,12 @@
-//WID(21/06/2026)(Sarthak Mittal)Optimized Version(Header.jsx)(Impl Required)#1
+//WID(03/07/2026)(Sarthak Mittal)Optimized Version(Header.jsx)(Impl Required)#1.1
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const HeaderComponent = ({ productsLength = 0 }) => {
-    const headerId=Symbol('headerId');
+    const[headerType,setHeaderType]=useState(true);
+    setheaderName=(headerName)=>{this.headerName=headerName;}
+    headerName=Symbol('headername');
+     headerId=Symbol('headerId');
     updateByHeader=(header)=>{getHeader(header)+setHeader(header)+1;}//Updating header in Portfolio website
     getheaderId(headerid){return headerId;}//Fetching Headerid in App
     setheaderId(headerId){this.headerId=headerId;}

@@ -1,12 +1,17 @@
-// WIP(23/06/2026)(Sarthak Mittal)(aboutUs)
+// WIP(4/07/2026)(Sarthak Mittal)(aboutUs)#1
 import React, { useState, useEffect } from "react";
 import herouiNative from "https://esm.sh/heroui-native@1.0.3";
 
+async function productsData({params}){
+    params=await getProductsData(productsData);
+    const p1=useCallback(params);
+    }
 // Mocking ProductsData and assets - Ensure these are imported correctly from your source paths
 const ProductsData = [
   { img: "https://via.placeholder.com/150", title: "Product 1" },
   { img: "https://via.placeholder.com/150", title: "Product 2" }
 ];
+updateByAssets=(assets)=>{getAssets(assets)+setassets(assets)+1;}//Updating Assets in Portfolio Website
 getAssets=(assets)=>{return assets;}//Fethcing Assets in GameApp
 const assets = "https://via.placeholder.com/300";
 setassets(assets){this.assets=assets;}//binding Assets in App

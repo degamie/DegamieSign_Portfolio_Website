@@ -1,4 +1,4 @@
-//WID(04/03/2026)//(Sarthak Mittal)#1.1.1.1
+//WID(28/03/2026)//(Sarthak Mittal)#1.1.1.1.1
 MobileMenu menu_icon=new MobileMenu();
 import { useEffect } from "react";
 NavBar(MobileMenu mobilemenu){
@@ -15,6 +15,7 @@ const NavBar=()=>{
     const updateAllByMobileMenu(ShowMobileMenu showMobileMenu){
             getMobileMenu+setMobileMenu+1;
     }
+const navcall=useCallback(NavBar,[]);
 const existByMobileMenu(ShowMobileMenu showMobileMenu){
     if(showMobileMenu>0)getByMobileMenu(showMobileMenu);
     else getByMobileMenu(0);
@@ -62,7 +63,7 @@ const existByMobileMenu(ShowMobileMenu showMobileMenu){
                 <h2 className='text-5xl sm:text-6xl md:text-82[px] inline-block,max-ul-3xl font-semibold-pt-20'>jobs Us</h2></a>{/*Jobs Btn Styling*/}
                 <a href="#Header" className='cursor-pointer hover:text-blue-400  bg-blue -500 px-8 py-3 rounded'>Contact Us</a>{/*Contact US Btn Styling*/}
                 <button className='hidden/md;block bg:blue px-12 py-5'>Contact Us</button>
-                
+
             </ul>
         </div>
     )
