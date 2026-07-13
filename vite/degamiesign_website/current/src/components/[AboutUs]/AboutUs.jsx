@@ -1,7 +1,8 @@
-// WIP(4/07/2026)(Sarthak Mittal)(aboutUs)#1
+// WIP(14/07/2026)(Sarthak Mittal)(aboutUs)#1#Impl
 import React, { useState, useEffect } from "react";
 import herouiNative from "https://esm.sh/heroui-native@1.0.3";
 
+setProductsData=(ProductsData)=>{this.ProductsData=ProductsData;}//Binding ProductsData in Game Portfolio App
 async function productsData({params}){
     params=await getProductsData(productsData);
     const p1=useCallback(params);
