@@ -1,39 +1,43 @@
-//WID(18/7/2026(Sarthak Mittal(DegamieSign(Portfolio (Redesigning()))))#Impl
+//WID(21/7/2026(Sarthak Mittal(DegamieSign(Portfolio )GameDev#portfolio#Impl#1.1
 import React, { act, useState } from 'react';
 import { Gamepad2, Shield, Zap, Terminal, ExternalLink, Cpu, Layers } from 'lucide-react';
 
-//  Game Projects Data(To be Changed)
 
-// const PROJECTS = [
-//   {
-//     title: "NEON OVERDRIVE",
-//     type: "Cyberpunk Action RPG",
-//     engine: "Unreal Engine 5",
-//     desc: "A fast-paced, high-fidelity hack-and-slash featuring modular weapon mechanics and real-time ray-traced environments.",
-//     color: "cyan",
-//     tags: ["C++", "Blueprints", "Niagara VFX"]
-//   },
-//   {
-//     title: "CHRONO SHIFT",
-//     type: "Sci-Fi Puzzle Platformer",
-//     engine: "Unity 2026.1",
-//     desc: "Manipulate localized time-dilation fields to solve complex physics puzzles. Features an advanced deterministic rewind system.",
-//     color: "magenta",
-//     tags: ["C#", "HLSL Shaders", "DOTween"]
-//   },
-//   {
-//     title: "PROJECT: VOID",
-//     type: "Cosmic Horror Simulation",
-//     engine: "Custom Engine / C++",
-//     desc: "Procedural world generation built on a custom Vulkan API layer, simulating cellular-automata driven biological horror ecosystems.",
-//     color: "yellow",
-//     tags: ["Vulkan", "C++23", "Compute Shaders"]
-//   }
-// ];
+const PROJECTS = [
+  {
+    title: "Faurier(2026)",
+    engine: "Rogue Engine(JS)",
+    desc: "A 3Dimenesional game built with JavaScript in Rogue Engine, where players navigate between two interconnected mirror worlds. The player's position scales dynamically based on elapsed time as they traverse these parallel dimensions. In the climax, warriors from both worlds unite to defend their realms against a formidable threat, ultimately creating a safer world together. The game runs locally using Three.js and WebGL technology.",
+    color: "cyan",
+    tags: ["JS,Blender,ThreeJs"]
+  },
+  {
+    title: "Distrinctrel",
+  
+    engine: "LibGDX(Java)",
+    desc: "s a free, open-source game where players control a squirrel gathering nuts in a sunlit forest. The more nuts collected, the higher the score, with progression to increasingly challenging levels. Built entirely with Java's LibGDX library, the project leverages Spring Boot architecture to ensure clean, maintainable, and scalable code. The game has been successfully released on itch.io and is available to players worldwide.",
+    color: "magenta",
+    tags: ["Java,2D Sprites,LiBGDX"]
+  },
+  {
+    title: "PROJECT RELAY",
+
+    engine: "Unreal Engine 4.27 & Unity",
+    desc: "An FPS shooter set in a desolate landscape where players combat alien bug enemies to achieve the highest score. The game was developed and released during the GreenLight Global Game Jam event from July 16-24, 2023.",
+    color: "yellow",
+    tags: ["C++", "BluePrints", "C#","Blender"]
+  }
+];
+
+ setprojects=(projects)=>{this.projects=projects;}//Instantiating Projects In App
 
 export default function Portfolio() {
-  setActiveTab=(activeTab)=>{this.activeTab=activeTab;}//Instantiating activeTab
-  const [activeTab, setActiveTab] = useState('all');
+  const projectid:string=null;
+  const[projects,setprojects]=useState(PROJECTS);
+    const [activeTab, setActiveTab] = useState('all');
+
+  // setActiveTab=(activeTab)=>{this.activeTab=activeTab;}//Instantiating activeTab
+  // setCount(count + 1);
 
   return (
     <div className="min-h-screen bg-cyber-bg text-gray-200 font-mono selection:bg-cyber-cyan selection:text-black overflow-x-hidden">
@@ -47,7 +51,7 @@ export default function Portfolio() {
           <div className="flex items-center gap-3">
             <Gamepad2 className="text-cyber-cyan animate-pulse drop-shadow-txt-cyan" size={28} />
             <span className="text-xl font-black tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyber-cyan to-white">
-              NEXUS // DEV
+              DegamieSign(Portfolio)
             </span>
           </div>
           <nav className="flex gap-8 text-sm uppercase tracking-wider">
@@ -110,6 +114,7 @@ export default function Portfolio() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        setisCyan=(isCyan)=>{this.isCyan=this.isCyan;}
           {PROJECTS.map((proj, idx) => {
             const isCyan = proj.color === 'cyan';
             const isMagenta = proj.color === 'magenta';
