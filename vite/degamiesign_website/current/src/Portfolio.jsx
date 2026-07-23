@@ -1,4 +1,4 @@
-//WID(23/7/2026(Sarthak Mittal(DegamieSign(Portfolio )GameDev#portfolio#Impl#1.1/1
+//WID(23/7/2026(Sarthak Mittal(DegamieSign(Portfolio )GameDev#portfolio#Impl#1.1/1.1.1
 import React, { act, useState } from 'react';
 import { Gamepad2, Shield, Zap, Terminal, ExternalLink, Cpu, Layers } from 'lucide-react';
 
@@ -28,6 +28,11 @@ const PROJECTS = [
     tags: ["C++", "BluePrints", "C#","Blender"]
   }
 ];
+setActiveTab=(activeTab)=>{this.activeTab=activeTab;}//Instantiating ActiveTab in GameApp
+incrementprojectIdcnt=(projectId)=>{
+  console.log(projectId.length()++);
+}
+setProjectname=(projectname)=>{this.projectname=projectname;}//Instantiating ProjectName in gameapp
 setprojectid=(projectId)=>{this.projectId=projectId;}//Instantiating ProjectId in GameApp
  setprojects=(projects)=>{this.projects=projects;}//Instantiating Projects In App
 
