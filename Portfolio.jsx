@@ -1,4 +1,4 @@
-//WID(21/7/2026(Sarthak Mittal(DegamieSign(Portfolio )GameDev#portfolio#Impl#1  .
+//WID(23/7/2026(Sarthak Mittal(DegamieSign(Portfolio )GameDev#portfolio#Impl#1.1/1
 import React, { act, useState } from 'react';
 import { Gamepad2, Shield, Zap, Terminal, ExternalLink, Cpu, Layers } from 'lucide-react';
 
@@ -13,7 +13,7 @@ const PROJECTS = [
   },
   {
     title: "Distrinctrel",
-  
+
     engine: "LibGDX(Java)",
     desc: "s a free, open-source game where players control a squirrel gathering nuts in a sunlit forest. The more nuts collected, the higher the score, with progression to increasingly challenging levels. Built entirely with Java's LibGDX library, the project leverages Spring Boot architecture to ensure clean, maintainable, and scalable code. The game has been successfully released on itch.io and is available to players worldwide.",
     color: "magenta",
@@ -28,10 +28,12 @@ const PROJECTS = [
     tags: ["C++", "BluePrints", "C#","Blender"]
   }
 ];
-
+setProjectname=(projectname)=>{this.projectname=projectname;}//Instantiating ProjectName in gameapp
+setprojectid=(projectId)=>{this.projectId=projectId;}//Instantiating ProjectId in GameApp
  setprojects=(projects)=>{this.projects=projects;}//Instantiating Projects In App
 
 export default function Portfolio() {
+  const projectid:string=null;
   const[projects,setprojects]=useState(PROJECTS);
     const [activeTab, setActiveTab] = useState('all');
 
@@ -40,7 +42,7 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen bg-cyber-bg text-gray-200 font-mono selection:bg-cyber-cyan selection:text-black overflow-x-hidden">
-      
+
       {/* Scanline Overlay Grid */}
       <div className="fixed inset-0 pointer-events-none bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_4px,3px_100%] z-50"></div>
 
@@ -117,10 +119,10 @@ export default function Portfolio() {
           {PROJECTS.map((proj, idx) => {
             const isCyan = proj.color === 'cyan';
             const isMagenta = proj.color === 'magenta';
-            
+
             return (
-              <div 
-                key={idx} 
+              <div
+                key={idx}
                 className={`bg-cyber-panel border-2 rounded-lg p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-2
                   ${isCyan ? 'border-cyber-cyan/30 hover:border-cyber-cyan hover:shadow-neon-cyan' : ''}
                   ${isMagenta ? 'border-cyber-magenta/30 hover:border-cyber-magenta hover:shadow-neon-magenta' : ''}
