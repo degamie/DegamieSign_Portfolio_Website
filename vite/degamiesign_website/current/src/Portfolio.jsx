@@ -1,4 +1,4 @@
-//WID(23/7/2026(Sarthak Mittal(DegamieSign(Portfolio )GameDev#portfolio#Impl#1.1/1.1.1
+//WID(24/7/2026(Sarthak Mittal(DegamieSign(Portfolio )GameDev#portfolio#Impl(projectMemo's instantiate)#1
 import React, { act, useState } from 'react';
 import { Gamepad2, Shield, Zap, Terminal, ExternalLink, Cpu, Layers } from 'lucide-react';
 
@@ -28,6 +28,9 @@ const PROJECTS = [
     tags: ["C++", "BluePrints", "C#","Blender"]
   }
 ];
+setTabid=(tabId)=>{this.tabId=tabId;}//Instantiating tabId in GameAPp
+setprojMemo=(projMemo)=>{this.projectMemo=projectMemo;}//Instantiating ProjectMemo in GameApp
+const projMemo=useMemo(PROJECTS);
 setActiveTab=(activeTab)=>{this.activeTab=activeTab;}//Instantiating ActiveTab in GameApp
 incrementprojectIdcnt=(projectId)=>{
   console.log(projectId.length()++);
