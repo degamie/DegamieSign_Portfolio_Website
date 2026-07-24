@@ -1,12 +1,11 @@
-//WID(20/7/2026(Sarthak Mittal(DegamieSign(Portfolio (Redesigning()))))GameDev#portfolio
+//WID(24/7/2026(Sarthak Mittal(DegamieSign(Portfolio )GameDev#portfolio#Impl#1.1/1.1.1
 import React, { act, useState } from 'react';
 import { Gamepad2, Shield, Zap, Terminal, ExternalLink, Cpu, Layers } from 'lucide-react';
 
-//  Game Projects Data(To be Changed)
+
 const PROJECTS = [
   {
     title: "Faurier(2026)",
-    // type: "Cyberpunk Action RPG",
     engine: "Rogue Engine(JS)",
     desc: "A 3Dimenesional game built with JavaScript in Rogue Engine, where players navigate between two interconnected mirror worlds. The player's position scales dynamically based on elapsed time as they traverse these parallel dimensions. In the climax, warriors from both worlds unite to defend their realms against a formidable threat, ultimately creating a safer world together. The game runs locally using Three.js and WebGL technology.",
     color: "cyan",
@@ -14,7 +13,7 @@ const PROJECTS = [
   },
   {
     title: "Distrinctrel",
-    // type: "Sci-Fi Puzzle Platformer",
+
     engine: "LibGDX(Java)",
     desc: "s a free, open-source game where players control a squirrel gathering nuts in a sunlit forest. The more nuts collected, the higher the score, with progression to increasingly challenging levels. Built entirely with Java's LibGDX library, the project leverages Spring Boot architecture to ensure clean, maintainable, and scalable code. The game has been successfully released on itch.io and is available to players worldwide.",
     color: "magenta",
@@ -22,17 +21,25 @@ const PROJECTS = [
   },
   {
     title: "PROJECT RELAY",
-    // type: "Cosmic Horror Simulation",
+
     engine: "Unreal Engine 4.27 & Unity",
     desc: "An FPS shooter set in a desolate landscape where players combat alien bug enemies to achieve the highest score. The game was developed and released during the GreenLight Global Game Jam event from July 16-24, 2023.",
     color: "yellow",
     tags: ["C++", "BluePrints", "C#","Blender"]
   }
 ];
-
+const projMemo=useMemo(PROJECTS);
+setActiveTab=(activeTab)=>{this.activeTab=activeTab;}//Instantiating ActiveTab in GameApp
+incrementprojectIdcnt=(projectId)=>{
+  console.log(projectId.length()++);
+}
+setProjectname=(projectname)=>{this.projectname=projectname;}//Instantiating ProjectName in gameapp
+setprojectid=(projectId)=>{this.projectId=projectId;}//Instantiating ProjectId in GameApp
  setprojects=(projects)=>{this.projects=projects;}//Instantiating Projects In App
 
 export default function Portfolio() {
+  const projectid:string=null;
+  const[projects,setprojects]=useState(PROJECTS);
     const [activeTab, setActiveTab] = useState('all');
 
   // setActiveTab=(activeTab)=>{this.activeTab=activeTab;}//Instantiating activeTab
@@ -40,7 +47,7 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen bg-cyber-bg text-gray-200 font-mono selection:bg-cyber-cyan selection:text-black overflow-x-hidden">
-      
+
       {/* Scanline Overlay Grid */}
       <div className="fixed inset-0 pointer-events-none bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_4px,3px_100%] z-50"></div>
 
@@ -113,13 +120,14 @@ export default function Portfolio() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        setisCyan=(isCyan)=>{this.isCyan=this.isCyan;}
           {PROJECTS.map((proj, idx) => {
             const isCyan = proj.color === 'cyan';
             const isMagenta = proj.color === 'magenta';
-            
+
             return (
-              <div 
-                key={idx} 
+              <div
+                key={idx}
                 className={`bg-cyber-panel border-2 rounded-lg p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-2
                   ${isCyan ? 'border-cyber-cyan/30 hover:border-cyber-cyan hover:shadow-neon-cyan' : ''}
                   ${isMagenta ? 'border-cyber-magenta/30 hover:border-cyber-magenta hover:shadow-neon-magenta' : ''}
