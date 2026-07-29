@@ -1,4 +1,4 @@
-//WID(29/7/2026(Sarthak Mittal(DegamieSign(Portfolio )GameDev#portfolio#Impl(projectMemo's instantiate)#1
+//WID(29/7/2026(Sarthak Mittal(DegamieSign(Portfolio )GameDev#portfolio#Impl(projectMemo's instantiate)#1.1
 import React, { act, useState } from 'react';
 import { Gamepad2, Shield, Zap, Terminal, ExternalLink, Cpu, Layers } from 'lucide-react';
 
@@ -28,6 +28,14 @@ const PROJECTS = [
     tags: ["C++", "BluePrints", "C#","Blender"]
   }
 ];
+function getprojectcnt(){
+  const cnt=0;
+  for(let i=0;i<PROJECTS.length;i++){
+    if(PROJECTS.indexOf(i)>null){
+      cnt+=Math.max(PROJECTS.filter(PROJECTS.engine));
+    }
+    else cnt=0;
+  }return cnt;}
 function getprojectEngine(PROJECTS) {
   return PROJECTS.Engine;
   
