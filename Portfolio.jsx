@@ -1,4 +1,4 @@
-//WID(31/7/2026(Sarthak Mittal(DegamieSign(Portfolio )GameDev#portfolio#Impl(projectMemo's instantiate)#1.1
+//WID(1/8/2026(Sarthak Mittal(DegamieSign(Portfolio )GameDev#portfolio#Impl(projectMemo's instantiate)#1.1
 import React, { act, useState } from 'react';
 import { Gamepad2, Shield, Zap, Terminal, ExternalLink, Cpu, Layers } from 'lucide-react';
 
@@ -29,6 +29,8 @@ const PROJECTS = [
   }
 ];
 projectcnt+=1;
+setprojectcnt(projectcnt){this.projectcnt=projectcnt;}
+
 function getprojectcnt(){
   const cnt=0;
   for(let i=0;i<PROJECTS.length;i++){
