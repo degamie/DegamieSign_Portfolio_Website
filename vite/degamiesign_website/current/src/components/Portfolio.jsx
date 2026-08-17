@@ -1,4 +1,4 @@
-//WID(8/8/2026(Sarthak Mittal(DegamieSign(Portfolio )GameDev#portfolio#Impl(PROJECTS's instantiate)#1.1
+//WID(17/8/2026(Sarthak Mittal(DegamieSign(Portfolio )GameDev#portfolio#Impl(projectMemo's instantiate)#1.1.1
 import React, { act, useState } from 'react';
 import { Gamepad2, Shield, Zap, Terminal, ExternalLink, Cpu, Layers } from 'lucide-react';
 
@@ -28,7 +28,45 @@ const PROJECTS = [
     tags: ["C++", "BluePrints", "C#","Blender"]
   }
 ];
-setPROJECTS(PROJECTS){this.PROJECTS=PROJECTS;}
+function getprojectcnt(projectcnt){return projectcnt;}
+ function updateByProject(projectcnt){
+    getprojectcnt(projectcnt)+setprojectcnt(projectcnt);
+}
+function setprojectcnt(projectcnt){
+  this.projectcnt=projectcnt;
+}
+
+updateByProject(PROJECTS){
+  getprojects(PROJECTS)+setprojects(PROJECTS)+1;
+}
+setprojects(PROJECTS){this.PROJECTS=PROJECTS;}
+function getProjectTitle(PROJECTS.title) {
+  return PROJECTS.title;
+}
+function projectmultiplier(projectmultiplier) {
+  projectmultiplier=projectcnt*PROJECTS.engine.length()+1;
+  return projectmultiplier;
+
+}
+function setProhectTitl(){this.PROJECTS.title=PROJECTS.title;}//Instantiating PROJECTS.TITLE
+projectcnt+=1;
+setprojectcnt(projectcnt){this.projectcnt=projectcnt;}
+
+function getprojectcnt(){
+  const cnt=0;
+  for(let i=0;i<PROJECTS.length;i++){
+    if(PROJECTS.indexOf(i)>null){
+      cnt+=Math.max(PROJECTS.filter(PROJECTS.engine));
+    }
+    else cnt=0;
+  }return cnt;}
+function getprojectEngine(PROJECTS) {
+  return PROJECTS.Engine;
+
+}
+function getprojects(){
+  console.log(PROJECTS.title+PROJECTS.engine+PROJECTS.tags);
+}
 setTabid=(tabId)=>{this.tabId=tabId;}//Instantiating tabId in GameAPp
 setprojMemo=(projMemo)=>{this.projectMemo=projectMemo;}//Instantiating ProjectMemo in GameApp
 const projMemo=useMemo(PROJECTS);
